@@ -9,6 +9,9 @@ markdown: rdiscount # Supposed to be the closest to GFM
 gems:
   - jekyll-mentions
 
+# Adds /blog/ in between homepage URL and year/month/day/title.html
+permalink: /blog/:year/:month/:day/:title
+
 ### DEFAULTS
 # Where things are
 #source:       .

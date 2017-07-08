@@ -1,0 +1,131 @@
+Only in ../leap-day/: another-page.md
+Common subdirectories: ./assets and ../leap-day/assets
+Only in .: blog
+Only in ../leap-day/: CODE_OF_CONDUCT.md
+diff ./_config.yml ../leap-day/_config.yml
+1,4c1,2
+< name: Modelling minerals for nuclear waste storage
+< title: Modelling minerals for nuclear waste storage
+< description: James Prime, PhD-in-Progress
+< #google_analytics:
+---
+> title: Leap Day theme
+> description: Leap Day is a theme for GitHub Pages.
+6,86c4,5
+< theme: jekyll-theme-leap-day
+< markdown: rdiscount # Supposed to be the closest to GFM
+<
+< gems:
+<   - jekyll-mentions
+<
+< # Adds /blog/ in between homepage URL and year/month/day/title.html
+< permalink: /blog/:year/:month/:day/:title
+<
+< ### DEFAULTS
+< # Where things are
+< #source:       .
+< #destination:  ./_site
+< #plugins_dir:  _plugins
+< #layouts_dir:  _layouts
+< #data_dir:     _data
+< #includes_dir: _includes
+< #collections:
+< #  posts:
+< #    output:   true
+<
+< # Handling Reading
+< #safe:                 false
+< #include:              [".htaccess"]
+< #exclude:              ["Gemfile", "Gemfile.lock", "node_modules", "vendor/bundle/", "vendor/cache/", "vendor/gems/", "vendor/ruby/"]
+< #keep_files:           [".git", ".svn"]
+< #encoding:             "utf-8"
+< #markdown_ext:         "markdown,mkdown,mkdn,mkd,md"
+< #strict_front_matter: false
+<
+< # Filtering Content
+< #show_drafts: null
+< #limit_posts: 0
+< #future:      false
+< #unpublished: false
+<
+< # Plugins
+< #whitelist: []
+< #plugins:   []
+<
+< # Conversion
+< #markdown:    kramdown
+< #highlighter: rouge
+< #lsi:         false
+< #excerpt_separator: "\n\n"
+< #incremental: false
+<
+< # Serving
+< #detach:  false
+< #port:    4000
+< #host:    127.0.0.1
+< #baseurl: "" # does not include hostname
+< #show_dir_listing: false
+<
+< # Outputting
+< #permalink:     date
+< #paginate_path: /page:num
+< #timezone:      null
+<
+< #quiet:    false
+< #verbose:  false
+< #defaults: []
+<
+< #liquid:
+< #  error_mode: warn
+<
+< # Markdown Processors
+< #rdiscount:
+< #  extensions: []
+<
+< #redcarpet:
+< #  extensions: []
+<
+< #kramdown:
+< #  auto_ids:       true
+< #  entity_output:  as_char
+< #  toc_levels:     1..6
+< #  smart_quotes:   lsquo,rsquo,ldquo,rdquo
+< #  input:          GFM
+< #  hard_wrap:      false
+< #  footnote_nr:    1
+---
+> google_analytics:
+> theme:
+Only in ../leap-day/: CONTRIBUTING.md
+Only in .: _data
+Only in .: diffs
+Only in .: _drafts
+Only in ../leap-day/: Gemfile
+Only in ../leap-day/: Gemfile.lock
+Common subdirectories: ./.git and ../leap-day/.git
+diff ./.gitignore ../leap-day/.gitignore
+1,3c1,4
+< _site/
+< .sass-cache/
+< .jekyll-metadata
+---
+> _site
+> .sass-cache
+> Gemfile.lock
+> *.gem
+Only in .: ignore
+Only in .: _includes
+Only in .: index.html
+Only in ../leap-day/: index.md
+Only in ../leap-day/: jekyll-theme-leap-day.gemspec
+Common subdirectories: ./_layouts and ../leap-day/_layouts
+Only in ../leap-day/: LICENSE
+Only in .: _posts
+Only in ../leap-day/: README.md
+Common subdirectories: ./_sass and ../leap-day/_sass
+Only in ../leap-day/: .sass-cache
+Common subdirectories: ./script and ../leap-day/script
+Only in ../leap-day/: _site
+Only in .: stylesheets
+Only in ../leap-day/: thumbnail.png
+Only in ../leap-day/: .travis.yml
