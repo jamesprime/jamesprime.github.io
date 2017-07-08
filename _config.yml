@@ -1,7 +1,7 @@
 name: Modelling minerals for nuclear waste storage
 title: Modelling minerals for nuclear waste storage
 description: James Prime, PhD-in-Progress
-google_analytics: 
+#google_analytics: 
 show_downloads: true
 theme: jekyll-theme-leap-day
 markdown: rdiscount # Supposed to be the closest to GFM
