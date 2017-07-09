@@ -71,8 +71,6 @@ permalink: /blog/:year/:month/:day/:title
 #  error_mode: warn
 
 # Markdown Processors
-#rdiscount:
-#  extensions: []
 
 #redcarpet:
 #  extensions: []
