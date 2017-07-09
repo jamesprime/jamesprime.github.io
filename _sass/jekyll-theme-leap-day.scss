@@ -212,7 +212,7 @@ header {
         display: inline-block;
         text-align: center;
 
-        &: hover {
+        &:hover {
             background: linear_gradient(rgb(255, 231, 136), rgb(255, 231, 136));
             background-color: #ffeca0;
         }
@@ -347,7 +347,7 @@ nav {
         a {
             color: #666;
 
-            &: hover { color: #999; }
+            &:hover { color: #999; }
         }
 
         // .active {
