@@ -15,6 +15,9 @@ gems:
 # Adds /blog/ in between homepage URL and year/month/day/title.html
 permalink: /blog/:year/:month/:day/:title
 
+# Handling reading
+include: [".htaccess", "_pages"]
+
 defaults:
   - scope:
       path: "assets/images"
