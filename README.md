@@ -14,7 +14,15 @@ Within these files, there will be `{{ liquid.tags }}`, which are used by Jekyll 
 
 `/assets/css/style.scss` holds only the empty frontmatter and the single line `@import "{{ site.theme }}";`, which is basically a "call" to `/_sass/jekyll-theme-leap-day.scss`, which actually holds the style information.  So custom CSS should go under the `@import` line in `/assets/css/style.scss`, or in a separate file (that gets called in a tailored duplicate `@import` line in the same).
 
-## Adding customised CSS and suchlike
+### `_config.yml`
+
+This file contains [Liquid variables](https://jekyllrb.com/docs/variables/) for setting.  Every `blah: value` pair in `_config.yml` can be referenced in other files using `site.blah` syntax.
+
+### Liquid syntax used by Jekyll
+
+[Liquid](https://shopify.github.io/liquid/) is a templating language, which is [used (and expanded) by Jekyll](http://jekyllrb.com/docs/templates/) for inclusion within the main (HTML syntax, generally, I think?) files.
+
+## Adding customised HTML, CSS, and suchlike
 
 Override Jekyll defaults with stuff in:
 
