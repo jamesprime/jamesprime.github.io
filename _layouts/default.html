@@ -4,7 +4,14 @@
         <div id="banner">
             <span id="logo"></span>
             <!-- <a href="{{ site.github.repository_url }}" class="button fork"><strong>View On GitHub</strong></a> -->
-            {% include nav.html %}
+            <!-- {% include nav.html %} -->
+            <div>
+                <ul>
+                    <!-- <li><a href="{{ site.page }}" class="button">About</a></li>
+                    <li><a href="{{ site.page }}" class="button">CV</a></li> -->
+                    <li><a href="{{ site.url }}{{ page.url }}" class="button">Test Page</a></li>
+                </ul>
+            </div>
             <!-- If site.show_downloads is assigned true, via show_downloads tag in _config.yml, then make download links visible -->
             {% if site.show_downloads %}
                 <div class="downloads">
