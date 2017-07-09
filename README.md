@@ -19,6 +19,11 @@ Within these files, there will be `{{ liquid.tags }}`, which are used by Jekyll 
 Override Jekyll defaults with stuff in:
 
 * `_layouts`
-* `_includes`
+* `_includes`: contains snippets of code to ease the templating process
+    * `head.html`: DOCTYPE and starting `html` tag (including `lang` definition within it); then full `head` and starting `body` tag
+    * `header.html`: Full `header` tags
+    * `footer.html`: Credit-attributing stuffs/quick contact details; full `footer` tag
+    * `foot.html`: Ending `body` and ending `html` tags
+    * `nav.html`: Links to pages (using liquid tags again)
 * `_sass`
 * `assets`
