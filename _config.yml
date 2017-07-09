@@ -1,8 +1,10 @@
+# NB: Any variables set here will be accessible via site.variable_name in other pages using Liquid syntax
+
 name: Modelling minerals for nuclear waste storage
 title: Modelling minerals for nuclear waste storage
 description: James Prime, PhD-in-Progress
 #google_analytics:
-show_downloads: true
+show_downloads: false # Was true originally (changed 09/07/2017)
 theme: jekyll-theme-leap-day
 # markdown: rdiscount # Supposed to be the closest to GFM
 markdown: kramdown
@@ -12,74 +14,3 @@ gems:
 
 # Adds /blog/ in between homepage URL and year/month/day/title.html
 permalink: /blog/:year/:month/:day/:title
-
-### DEFAULTS
-# Where things are
-#source:       .
-#destination:  ./_site
-#plugins_dir:  _plugins
-#layouts_dir:  _layouts
-#data_dir:     _data
-#includes_dir: _includes
-#collections:
-#  posts:
-#    output:   true
-
-# Handling Reading
-#safe:                 false
-#include:              [".htaccess"]
-#exclude:              ["Gemfile", "Gemfile.lock", "node_modules", "vendor/bundle/", "vendor/cache/", "vendor/gems/", "vendor/ruby/"]
-#keep_files:           [".git", ".svn"]
-#encoding:             "utf-8"
-#markdown_ext:         "markdown,mkdown,mkdn,mkd,md"
-#strict_front_matter: false
-
-# Filtering Content
-#show_drafts: null
-#limit_posts: 0
-#future:      false
-#unpublished: false
-
-# Plugins
-#whitelist: []
-#plugins:   []
-
-# Conversion
-#markdown:    kramdown
-#highlighter: rouge
-#lsi:         false
-#excerpt_separator: "\n\n"
-#incremental: false
-
-# Serving
-#detach:  false
-#port:    4000
-#host:    127.0.0.1
-#baseurl: "" # does not include hostname
-#show_dir_listing: false
-
-# Outputting
-#permalink:     date
-#paginate_path: /page:num
-#timezone:      null
-
-#quiet:    false
-#verbose:  false
-#defaults: []
-
-#liquid:
-#  error_mode: warn
-
-# Markdown Processors
-
-#redcarpet:
-#  extensions: []
-
-#kramdown:
-#  auto_ids:       true
-#  entity_output:  as_char
-#  toc_levels:     1..6
-#  smart_quotes:   lsquo,rsquo,ldquo,rdquo
-#  input:          GFM
-#  hard_wrap:      false
-#  footnote_nr:    1
