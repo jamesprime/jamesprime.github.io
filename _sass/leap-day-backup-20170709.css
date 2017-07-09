@@ -9,7 +9,8 @@ and edited by James Prime for personal use
 @import "rouge-base16-dark";
 
 body {
-    font: 14px/22px 'Quattrocento Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    /*font: 14px/22px 'Quattrocento Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+    font: 16px/22px 'Merriweather', Georgia, Charter, "Bitstream Charter", serif;
     color: #666;
     font-weight: 300;
     margin: 0px;
@@ -130,7 +131,7 @@ td {
     border-bottom: 1px solid #e5e5e5;
     border-right: 1px solid #ffcc00;
 
-    &: first-child {
+    &:first-child {
         border-left: 1px solid #ffcc00;
     }
 }
@@ -157,7 +158,7 @@ header {
     right: 0;
     width: 100%;
     text-align: center;
-    background: url(../images/background.png) #4276b6;
+    background: url(../images/background.png) #4276b6; /*Actually, according to imagecolorpicker.com, it's R: 60-70, G: 110-120 (around 113/114 mostly though), B: 175-181, depending on where you click!*/
     box-shadow: 1px 0px 2px rgba(0,0,0,.75);
     z-index: 99;
     -webkit-font-smoothing: antialiased;
@@ -200,7 +201,7 @@ header {
     .button {
         border: 1px solid #dba500;
         background: linear_gradient(rgb(255, 231, 136), rgb(255, 206, 56));
-        border-radius: 2px;
+        border-radius: 20px 2px 20px 2px;
         box-shadow: inset 0px 1px 0px rgba(255,255,255,.4), 0px 1px 1px rgba(0,0,0,.1);
         background-color: #FFE788;
         margin-left: 5px;
@@ -213,7 +214,7 @@ header {
         display: inline-block;
         text-align: center;
 
-        &: hover {
+        &:hover {
             background: linear_gradient(rgb(255, 231, 136), rgb(255, 231, 136));
             background-color: #ffeca0;
         }
@@ -231,13 +232,9 @@ header {
     }
 
     .leftbuttons {
+        position: fixed;
         left: 50%;
-        margin-left: -325px;
-        padding: 10px 12px;
-        margin-top: 6px;
-        line-height: 14px;
-        font-size: 14px;
-        background-color: #FFE788;
+        margin-left: -340px; /*Lines up with content box's left edge*/
     }
 
     .rightbuttons {
@@ -347,7 +344,7 @@ nav {
         a {
             color: #666;
 
-            &: hover { color: #999; }
+            &:hover { color: #999; }
         }
 
         // .active {

@@ -1,6 +1,7 @@
 /*
 Leap Day for GitHub Pages
 by Matt Graham
+and edited by James Prime for personal use
 */
 
 @import "normalize";
@@ -9,8 +10,7 @@ by Matt Graham
 
 body {
     /*font: 14px/22px 'Quattrocento Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;*/
-    font: 16px/22px 'Merriweather', "Georgia", serif;
-    /*font-size: 16px;*/
+    font: 16px/22px 'Merriweather', Georgia, Charter, "Bitstream Charter", serif;
     color: #666;
     font-weight: 300;
     margin: 0px;
@@ -158,7 +158,7 @@ header {
     right: 0;
     width: 100%;
     text-align: center;
-    background: url(../images/background.png) #4276b6;
+    background: url(../images/background.png) #4276b6; /*Actually, according to imagecolorpicker.com, it's R: 60-70, G: 110-120 (around 113/114 mostly though), B: 175-181, depending on where you click!*/
     box-shadow: 1px 0px 2px rgba(0,0,0,.75);
     z-index: 99;
     -webkit-font-smoothing: antialiased;
