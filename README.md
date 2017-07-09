@@ -35,3 +35,7 @@ Override Jekyll defaults with stuff in:
     * `nav.html`: Links to pages (using liquid tags again)
 * `_sass`
 * `assets`
+
+## Pages
+
+If you want your [pages to go in a specific directory](http://damonbauer.me/organizing-jekyll-pages/) (`_pages`, for example), you need to add it to the `includes: ["blah"]` hash, to become `includes: ["blah", "_pages"]`.  Additionally, you need a directory per page, within the `_pages` directory, and in each page-specific directory, you need an `index.html` file, with frontmatter that includes `permalink: "/pagename/`.
