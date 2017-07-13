@@ -63,7 +63,8 @@ a {
     color: #777777;
 
     &:hover {
-        border-bottom-style: dotted;
+        /*border-bottom-style: dotted;*/
+        border-bottom: 2px dashed rgba(0,0,0,1.0);
     }
 
     &:active {
