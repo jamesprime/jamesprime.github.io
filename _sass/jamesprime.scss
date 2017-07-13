@@ -60,26 +60,21 @@ a {
     border-bottom: 2px dashed rgba(100,100,100,0.9);
     /* Font styles */
     text-decoration: none;
-    color: #747474; /*Originally #777777; changed based on tota11y's contrast recommendations*/
+    color: #7474A3; /*Originally #777777; changed based on tota11y's contrast recommendations*/
 
     &:hover {
         /*border-bottom-style: dotted;*/
         border-bottom: 2px dashed rgba(0,0,0,1.0);
     }
-
     &:active {
         border-bottom-style: solid;
     }
-
     &:visited {
         border-bottom: 2px solid #97CAF2;
-
         &:hover {
             border-bottom: 2px solid #008FFF;
         }
-
     }
-
 }
 
 a small {
