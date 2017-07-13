@@ -49,10 +49,30 @@ h3 {
     line-height: 24px;
 }
 
-a {
+/*a {
     color: #3399cc;
     font-weight: 400;
     text-decoration: none;
+}*/
+
+a {
+    display: inline-block;
+    border-bottom: 2px dashed rgba(0,0,0,0.9);
+    /* Font styles */
+    text-decoration: none;
+    color: #777777;
+
+    &:hover {
+        border-bottom-style: dotted;
+    }
+
+    &:active {
+        border-bottom-style: solid;
+    }
+
+    &:visited {
+        border-bottom: 2px solid #97CAF2;
+    }
 }
 
 a small {
@@ -281,26 +301,6 @@ header {
         display: block;
         background: url(../images/octocat-logo.png);
     }
-}
-
-.inline-link {
-    display: inline-block;
-    border-bottom: 2px dashed rgba(0,0,0,0.9);
-    /* Font styles */
-    text-decoration: none;
-    color: #777777;
-}
-
-.inline-link:hover {
-    border-bottom-style: dotted;
-}
-
-.inline-link:active {
-    border-bottom-style: solid;
-}
-
-.inline-link:visited {
-    border-bottom: 2px solid #97CAF2;
 }
 
 section {
