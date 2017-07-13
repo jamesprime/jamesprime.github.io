@@ -62,18 +62,19 @@ a {
     text-decoration: none;
     color: #6464B4; /*Originally #777777; changed based on tota11y's contrast recommendations*/
 
-    &:visited {
-        border-bottom: 2px solid #80C7FF;
-        &:hover {
-            border-bottom: 2px solid #008FFF;
-        }
-    }
     &:hover {
         /*border-bottom-style: dotted;*/
         border-bottom: 2px dashed rgba(0,0,0,1.0);
     }
     &:active {
         border-bottom-style: solid;
+    }
+    &:visited {
+        border-bottom-color: #80C7FF;
+        border-bottom-style: solid;
+        &:hover {
+            border-bottom-color: #008FFF;
+        }
     }
 }
 
