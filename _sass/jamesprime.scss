@@ -283,6 +283,26 @@ header {
     }
 }
 
+.inline-link {
+    display: inline-block;
+    border-bottom: 2px dashed rgba(0,0,0,0.9);
+    /* Font styles */
+    text-decoration: none;
+    color: #777;
+}
+
+.inline-link:hover {
+    border-bottom-style: dotted;
+}
+
+.inline-link:active {
+    border-bottom-style: solid;
+}
+
+.inline-link:visited {
+    border-bottom: 2px solid #97CAF2;
+}
+
 section {
     width: 590px;
     padding: 30px 30px 50px 30px;
