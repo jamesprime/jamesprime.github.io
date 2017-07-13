@@ -73,7 +73,13 @@ a {
 
     &:visited {
         border-bottom: 2px solid #97CAF2;
+
+        &:hover {
+            border-bottom: 2px solid #008FFF;
+        }
+
     }
+
 }
 
 a small {
