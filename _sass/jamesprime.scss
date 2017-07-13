@@ -60,7 +60,7 @@ a {
     border-bottom: 2px dashed rgba(100,100,100,0.9);
     /* Font styles */
     text-decoration: none;
-    color: #777777;
+    color: #747474; /*Originally #777777; changed based on tota11y's contrast recommendations*/
 
     &:hover {
         /*border-bottom-style: dotted;*/
@@ -204,7 +204,7 @@ header {
     }
 
     p {
-        color: #d8d8d8;
+        color: #fbfbfb; /*Originally #d8d8d8; changed based on tota11y's contrast recommendations*/
         text-shadow: rgba(#000, 0.2) 0 1px 0;
         font-size: 18px;
         margin: 0px;
@@ -389,6 +389,11 @@ footer {
     bottom: 20px;
     text-align: right;
     line-height: 16px;
+
+    /* Links on main background (which is darker than the body background!) */
+    a {
+        color: #676767; /*Originally #777777; changed based on tota11y's contrast recommendations*/
+    }
 }
 
 @media print, screen and (max-width: 1060px) {
