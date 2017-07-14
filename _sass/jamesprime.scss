@@ -15,7 +15,7 @@ body {
     font-weight: 300;
     margin: 0;
     padding: 0 0 20px 0;
-    background: url("../images/body-background.png") #eae6d1;
+    background: #eae6d1 url("../images/body-background.png"); // Note that image path is given relative to /assets/css/ rather than /_sass/, because that's where the file gets imported to!
 }
 
 h1,
