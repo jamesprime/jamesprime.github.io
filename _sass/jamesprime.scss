@@ -1,6 +1,5 @@
 // Leap Day for GitHub Pages
-// by Matt Graham
-// and edited by James Prime for personal use
+// by Matt Graham, and tweaked by James Prime for personal use
 
 // scss-lint:disable BemDepth, ChainedClasses, ColorVariable, Comment, DisableLinterReason, ExtendDirective, Indentation, PrivateNamingConvention, PropertyCount, PropertySortOrder, SpaceAfterComment, SpaceAfterVariableColon, TrailingZero, TransitionAll, VariableForProperty
 
@@ -402,7 +401,8 @@ footer {
     left: 50%;
     margin-left: -530px;
     bottom: 20px;
-    text-align: right;
+    // text-align: right;
+    text-align: center;
     line-height: 16px;
 
     //  Links on main background (which is darker than the body background!)
