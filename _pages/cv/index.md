@@ -1,5 +1,5 @@
 ---
-layout: danhixon
+layout: page
 title: CV
 permalink: /cv.html
 ---
