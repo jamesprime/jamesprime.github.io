@@ -105,7 +105,6 @@ a {
 
 ul {
     list-style-image: url('../images/bullet.png');
-    display: inline-block;
 }
 
 strong {
@@ -409,6 +408,7 @@ footer {
     //  Links on main background (which is darker than the body background!)
     a {
         color: #676767; // Originally #777777; changed based on tota11y's contrast recommendations
+        display: inline-block;
     }
 }
 
