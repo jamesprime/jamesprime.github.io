@@ -1,5 +1,6 @@
 ---
+layout: danhixon
 title: Test page
-permalink: test.html
+permalink: /test.html
 ---
 Testing, testing, 1, 2, 3...
