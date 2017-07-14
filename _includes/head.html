@@ -21,5 +21,21 @@
             <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
         <![endif]-->
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <!-- Text size changer using JavaScript -->
+        <script src="http://code.jquery.com/jquery-latest.js"></script>
     </head>
     <body>
+        <a href="#" id="largerText">A+</a>
+        |
+        <a href="#" id="smallerText">A-</a>
+        <p>E tu, "Lorem ipsum" ?!</p>
+
+        <script>
+            $("#largerText").click(function() {
+                $("body, input, select, textarea, button").css("font-size", (parseInt($("body").css("fontSize")) * 1.1) + "px");
+            });
+
+            $("#smallerText").click(function() {
+                $("body, input, select, textarea, button").css("font-size", (parseInt($("body").css("fontSize")) * 0.9) + "px");
+            });
+        </script>
