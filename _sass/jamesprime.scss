@@ -401,10 +401,12 @@ footer {
     left: 50%;
     margin-left: -530px;
     bottom: 20px;
-    // text-align: right;
-    text-align: center;
+    text-align: right;
     line-height: 16px;
 
+    .center-children {
+        text-align: center;
+    }
     //  Links on main background (which is darker than the body background!)
     a {
         color: #676767; // Originally #777777; changed based on tota11y's contrast recommendations
