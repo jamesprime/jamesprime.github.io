@@ -23,7 +23,7 @@ h1 {
         &:hover {
             // color: #fba919;
             color: #0383c9;
-            text-shadow: 0 0 1px #666;
+            text-shadow: 1px 1px 2px #666;
         }
     }
 }
@@ -203,7 +203,7 @@ div.slogan {
     margin: 0 auto;
     padding: 8px 0;
     text-align: right;
-    position: fixed;
+    // position: fixed;
     p {
         margin: 0;
         padding: 0;
