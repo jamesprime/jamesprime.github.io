@@ -182,9 +182,10 @@ pre {
 }
 
 #toplinks {
-    font-size: 0.9em;
+    font-size: .9em;
     padding: 5px 2px 2px 3px;
     text-align: right;
+
     a {
         color: gray;
     }
@@ -196,7 +197,7 @@ div.slogan {
     font-weight: 700;
     letter-spacing: -1px;
     line-height: 1.2em;
-    margin: -15px 0 60px 0px;
+    margin: -15px 0 60px 0;
 
     div {
         display: inline;
@@ -236,8 +237,8 @@ div.slogan {
     margin: 0 auto;
     padding: 8px 0;
     text-align: right;
-
     // position: fixed;
+
     p {
         margin: 0;
         padding: 0;
