@@ -1,5 +1,5 @@
 /*
- *  Dan Hixon's /css/default.css, tweaked by James Prime for personal use
+ *  Dan Hixon's /css/default.css, sassified and tweaked by James Prime for personal use
  */
 
 body {
@@ -14,7 +14,7 @@ body {
 h1 {
     color: #0383c9;
     font-size: 4.7em;
-    letter-spacing: -5px;
+    letter-spacing: -2px;
     margin: 0 0 30px 0px;
     padding: 50px 0 0 0;;
     a {
@@ -22,6 +22,7 @@ h1 {
         text-transform: none;
         &:hover {
             color: #fba919;
+            text-shadow: 0 0 3px #ffffff;
         }
     }
 }
