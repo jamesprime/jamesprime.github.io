@@ -1,6 +1,6 @@
-/*
- *  Dan Hixon's /css/default.css, sassified and tweaked by James Prime for personal use
- */
+//
+//  Dan Hixon's /css/default.css, sassified and tweaked by James Prime for personal use
+//
 
 body {
     background: #373737;
@@ -16,10 +16,12 @@ h1 {
     font-size: 4.7em; // Originally 4.7em; default is 2em
     letter-spacing: -1px;
     margin: 0 0 30px 0;
-    padding: 50px 0 0 0;;
+    padding: 50px 0 0 0;
+
     a {
         color: #0383c9;
         text-transform: none;
+
         &:hover {
             // color: #fba919;
             color: #0383c9;
@@ -93,10 +95,12 @@ a {
     color: #0383c9;
     font-weight: 700;
     text-decoration: none;
+
     &:hover {
         // text-decoration: underline;
         color: #fba919;
     }
+
     img {
         border: 0;
     }
@@ -113,10 +117,11 @@ label {
 blockquote {
     border-left: 8px solid #0383c9;
     background: #474747;
-    font-size: 1.0em;
+    font-size: 1em;
     margin: 20px 10px;
     padding: 10px;
     padding-left: 20px;
+
     span {
         display: block;
         float: right;
@@ -161,13 +166,14 @@ pre {
 .header {
     h1 {
         // font: 40px/48px Merriweather, Georgia, Charter, 'Bitstream Charter', serif;
-        line-height: 0.9em;
+        line-height: .9em;
     }
+
     h2 {
         border: none;
         color: #c5c5c5;
         font: 86% Merriweather, Georgia, Charter, 'Bitstream Charter', serif;
-        line-height: 0.9em;
+        line-height: .9em;
         font-size: 1.7em;
         font-weight: 200;
         letter-spacing: -1px;
@@ -191,6 +197,7 @@ div.slogan {
     letter-spacing: -1px;
     line-height: 1.2em;
     margin: -15px 0 60px 0px;
+
     div {
         display: inline;
     }
@@ -200,7 +207,8 @@ div.slogan {
     margin: -65px 10px -30px -50px;
     float: right;
     background: url('../images/octocat-logo.png');
-    height: 213px; width: 204px;
+    height: 213px;
+    width: 204px;
 }
 
 //-----------------------------------------------------------------------------
@@ -223,27 +231,32 @@ div.slogan {
     border-top: 4px solid #dadada;
     clear: both;
     color: gray;
-    font-size: 0.9em;
+    font-size: .9em;
     line-height: 1.6em;
     margin: 0 auto;
     padding: 8px 0;
     text-align: right;
+
     // position: fixed;
     p {
         margin: 0;
         padding: 0;
     }
+
     a {
         color: #808080;
     }
+
     // Inline links please
     li {
         display: inline;
         // margin-left: 20px;
         // margin-right: 20px;
     }
+
     ul {
         text-align: center;
+
         span {
             color: #bfbfbf;
             padding: 0 2em;
@@ -271,9 +284,9 @@ div.slogan {
 
 .publish_date {
     margin-top: -8px;
-    margin-bottom: 0px;
+    margin-bottom: 0;
     text-align: right;
-    font-size: 0.8em;
+    font-size: .8em;
     width: 490px;
     color: #23af4c;
 }
@@ -300,7 +313,7 @@ div#post ul li {
 }
 
 .scoot {
-    margin: 5px 5px 5px 0px;
+    margin: 5px 5px 5px 0;
 }
 
 .terminal {
@@ -309,7 +322,7 @@ div#post ul li {
 }
 
 .im {
-    font-size: 0.95em;
+    font-size: .95em;
     line-height: 1.4em;
     width: 650px;
     font-family: 'Lucida Grande', 'Lucida Sans', 'Lucida Sans Unicode', Helvetica, Tahoma;
@@ -353,6 +366,7 @@ dark-orange #e39c1f
     padding: 0;
     text-align: left;
     width: 500px;
+
     h3 {
         margin: 10px 0 8px;
     }
@@ -365,6 +379,7 @@ dark-orange #e39c1f
     padding: 0;
     text-align: left;
     width: 750px;
+
     h3 {
         margin: 10px 0 8px;
     }
@@ -385,6 +400,7 @@ dark-orange #e39c1f
     font-size: 0.9em;
     line-height: 1.4em;
     padding: 10px 10px 10px 13px;
+
     a {
         color: #f0f0f0;
     }
@@ -408,6 +424,7 @@ dark-orange #e39c1f
 .timestamp {
     font-size: 1.2em;
     margin: -5px 0 15px 10px;
+
     a {
         font-weight: normal;
     }
