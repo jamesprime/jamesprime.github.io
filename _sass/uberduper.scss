@@ -21,8 +21,8 @@ h1 {
         color: #0383c9;
         text-transform: none;
         &:hover {
-            color: #fba919;
-            text-shadow: 0 0 3px #ffffff;
+            // color: #fba919;
+            text-shadow: 0 0 3px #fff;
         }
     }
 }
@@ -79,8 +79,8 @@ a {
     font-weight: 700;
     text-decoration: none;
     &:hover {
-        text-decoration: underline;
-        color: #f5a2c6;
+        // text-decoration: underline;
+        color: #fba919;
     }
     img {
         border: 0;
