@@ -39,7 +39,7 @@ dl {
 h1,
 h2,
 h3 {
-    line-height: 1.1;
+    line-height: 1.1em;
 }
 
 h1 {
@@ -223,7 +223,7 @@ header {
         color: #fbfbfb; // Originally #d8d8d8; changed based on tota11y's contrast recommendations
         text-shadow: rgba(#000, .2) 0 1px 0;
         font-size: 18px;
-        line-height: 1.5;
+        line-height: 1.5em;
         margin: 0;
     }
 }
