@@ -15,7 +15,7 @@ h1 {
     color: #0383c9;
     font-size: 4.7em; // Originally 4.7em; default is 2em
     letter-spacing: -1px;
-    margin: 0 0 30px 0px;
+    margin: 0 0 30px 0;
     padding: 50px 0 0 0;;
     a {
         color: #0383c9;
@@ -30,36 +30,39 @@ h1 {
 
 h2 {
     border-bottom: 1px solid #e5e5e5;
-    color: #0383c9;
+    color: #1E8DC9;
     font-size: 1.8em; // Originally 1.7em; default is 1.5em
     font-weight: 100;
     letter-spacing: -1px;
-    margin: 0 0 10px;
+    margin: 0 0 10px 0;
     padding: 0px 2px 4px 5px;
 }
 
 h3 {
     border-bottom: 1px solid #e5e5e5;
-    color: #fba919;
+    color: #3C98C9; // Originally #fba919
     font-size: 1.6em; // Originally 1.4em; default is 1.17em
     font-weight: 100;
-    margin: 10px 0 8px;
+    margin: 10px 0 10px 0; // Originally 10px 0 8px
     padding: 1px 2px 2px 3px;
 }
 
 h4 {
-    color: #23af4c;
+    color: #5AA3C9; // Originally #23af4c
     font-size: 1.4em; // Default is 1em
+    margin: 10px 0;
 }
 
 h5 {
-    color: #23af4c;
+    color: #79AEC9;
     font-size: 1.2em; // Default is .83em
+    margin: 10px 0;
 }
 
 h6 {
-    color: #23af4c;
+    color: #97B8C9;
     font-size: 1em; // Default is .67em
+    margin: 10px 0;
 }
 
 p {
