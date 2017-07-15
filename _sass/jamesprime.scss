@@ -212,6 +212,10 @@ header {
         -ms-text-overflow: ellipsis;
         a {
             color: #f3f3f3;
+            text-decoration: none;
+            &:hover {
+                text-decoration: none;
+            }
         }
     }
     p {
