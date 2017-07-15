@@ -401,7 +401,7 @@ footer {
     left: 50%;
     margin-left: -530px;
     bottom: 20px;
-    text-align: center;
+    text-align: right;
     line-height: 16px;
 
     //  Links on main background (which is darker than the body background!)
@@ -410,12 +410,12 @@ footer {
     }
     // Inline links please
     li {
-        display: inline;
+        display: inline-block;
         margin-left: 20px;
         margin-right: 20px;
     }
     ul {
-        margin: 0 auto;
+        text-align: center;
     }
 }
 
