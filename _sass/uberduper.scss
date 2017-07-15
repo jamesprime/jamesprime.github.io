@@ -5,112 +5,10 @@
 body {
     background: #373737;
     color: #e5e5e5;
-    font: 86% Merriweather, Georgia, Charter, 'Bitstream Charter', serif;
+    font: 50% Merriweather, Georgia, Charter, 'Bitstream Charter', serif;
     line-height: 1.2em;
     margin: 0 auto;
     padding: 0;
-}
-
-label {
-    margin-left: 5px;
-}
-
-a {
-    color: #0383c9;
-    font-weight: 700;
-    text-decoration: none;
-    &:hover {
-        text-decoration: underline;
-        color: #f5a2c6;
-    }
-    img {
-        border: 0;
-    }
-}
-
-p {
-    margin: 0 0 18px 0px;
-}
-
-ul,
-ol,
-dl {
-    font-size: 1em;
-    margin: 2px 0 16px 0px;
-}
-
-ul ul,
-ol ol {
-    margin: 4px 0 4px 10px;
-}
-
-.posts {
-    padding: 0;
-}
-
-li {
-    padding: 0 4px;
-    color: #ccc;
-    list-style: none;
-}
-
-ul.posts li span {
-    float: right;
-    font-family: Monofur, Monaco, Courier;
-    color: #888;
-}
-
-ul.posts li a {
-    font-weight: 200;
-}
-
-div#post ul li {
-    list-style: circle;
-}
-
-blockquote {
-    border-left: 8px solid #0383c9;
-    background: #474747;
-    font-size: 1.0em;
-    margin: 20px 10px;
-    padding: 10px;
-    padding-left: 20px;
-    span {
-        display: block;
-        float: right;
-        padding-right: 20px;
-    }
-}
-
-pre {
-    font-family: Monaco, Courier;
-    background: #191919;
-    border: dashed 2px #e5e5e5;
-    width: 600px;
-    padding: 5px;
-    font-size: 1em;
-    line-height: 2em;
-    clear: both;
-}
-
-.scoot {
-    margin: 5px 5px 5px 0px;
-}
-
-.terminal {
-    background: #222021;
-    color: #ddd;
-}
-
-.im {
-    font-size: 0.95em;
-    line-height: 1.4em;
-    width: 650px;
-    font-family: 'Lucida Grande', 'Lucida Sans', 'Lucida Sans Unicode', Helvetica, Tahoma;
-    padding: 5px;
-    background-color: #FFB604;
-    color: #222;
-    border: solid 1px #fff;
 }
 
 h1 {
@@ -128,48 +26,6 @@ h1 {
     }
 }
 
-#logo {
-    margin: -65px 10px -30px -50px;
-    float: right;
-    background: url('../images/octocat-logo.png');
-    height: 213px; width: 204px;
-}
-
-.publish_date {
-    margin-top: -8px;
-    margin-bottom: 0px;
-    text-align: right;
-    font-size: 0.8em;
-    width: 490px;
-    color: #23af4c;
-}
-
-.pink { color: #f5a2c6; }
-.green { color: #23af4c; }
-.blue { color: #0383c9; }
-.orange { color: #fba919; }
-
-a.pink:hover { border: solid 2px #f5a2c6; padding: 1px; text-decoration: none;  }
-a.green:hover { color: #212121; background-color: #23af4c; text-decoration: none; }
-a.blue:hover { color: #212121; background-color: #0383c9; text-decoration: none; }
-a.orange:hover { color: #fba919; padding: 1px; border: solid 2px #fba919; text-decoration: none; }
-.slogan a { padding: 3px; line-height: 2.5em; }
-
-.commentslink {
-    margin-bottom: 35px;
-    display: block;
-    border-bottom: solid 1px #dadada;
-    padding-bottom: 25px;
-}
-
-/*
-pink #f5a2c6
-light-green #23af4c
-dark-green #2f8b49
-light-orange #fba919
-dark-orange #e39c1f
-*/
-
 h2 {
     border-bottom: 1px solid #e5e5e5;
     color: #0383c9;
@@ -178,12 +34,6 @@ h2 {
     letter-spacing: -1px;
     margin: 0 0 10px;
     padding: 0px 2px 4px 5px;
-}
-
-.post_title {
-    font-size: 1.8em;
-    font-weight: normal;
-    padding-bottom: 6px;
 }
 
 h3 {
@@ -199,7 +49,91 @@ h4 {
     color: #23af4c;
 }
 
-/*** Main wrap and header ***/
+p {
+    margin: 0 0 18px 0px;
+}
+
+ul,
+ol,
+// table settings missing
+// pre settings missing
+dl {
+    font-size: 1em;
+    margin: 2px 0 16px 0px;
+}
+
+ul ul,
+ol ol {
+    margin: 4px 0 4px 10px;
+}
+
+li {
+    padding: 0 4px;
+    color: #ccc;
+    list-style: none;
+}
+
+a {
+    color: #0383c9;
+    font-weight: 700;
+    text-decoration: none;
+    &:hover {
+        text-decoration: underline;
+        color: #f5a2c6;
+    }
+    img {
+        border: 0;
+    }
+}
+
+// strong settings missing
+
+// .wrapper settings missing
+
+label {
+    margin-left: 5px;
+}
+
+blockquote {
+    border-left: 8px solid #0383c9;
+    background: #474747;
+    font-size: 1.0em;
+    margin: 20px 10px;
+    padding: 10px;
+    padding-left: 20px;
+    span {
+        display: block;
+        float: right;
+        padding-right: 20px;
+    }
+}
+
+// code settings missing
+
+pre {
+    font-family: Monaco, Courier;
+    background: #191919;
+    border: dashed 2px #e5e5e5;
+    width: 600px;
+    padding: 5px;
+    font-size: 1em;
+    line-height: 2em;
+    clear: both;
+}
+
+// table settings missing
+
+// th settings missing
+
+// td settings missing
+
+// hr settings missing
+
+// dt settings missing
+
+//-----------------------------------------------------------------------------
+// MAIN WRAP AND HEADER
+//-----------------------------------------------------------------------------
 
 #wrap {
     color: #f4f4f4;
@@ -209,7 +143,7 @@ h4 {
 }
 
 #header {
-    margin: 0;
+    font: 40px/48px Merriweather, Georgia, Charter, 'Bitstream Charter', serif;
 }
 
 #toplinks {
@@ -233,7 +167,141 @@ div.slogan {
     }
 }
 
-/*** Main content ***/
+#logo {
+    margin: -65px 10px -30px -50px;
+    float: right;
+    background: url('../images/octocat-logo.png');
+    height: 213px; width: 204px;
+}
+
+//-----------------------------------------------------------------------------
+// MAIN WRAP AND HEADER END
+//-----------------------------------------------------------------------------
+
+// #banner settings missing
+
+// section settings missing
+
+// small settings missing
+
+// nav settings missing
+
+//-----------------------------------------------------------------------------
+// FOOTER
+//-----------------------------------------------------------------------------
+
+#footer {
+    border-top: 4px solid #dadada;
+    clear: both;
+    color: gray;
+    font-size: 0.9em;
+    line-height: 1.6em;
+    margin: 0 auto;
+    padding: 8px 0;
+    text-align: right;
+    p {
+        margin: 0;
+        padding: 0;
+    }
+    a {
+        color: #808080;
+    }
+}
+
+//-----------------------------------------------------------------------------
+// FOOTER END
+//-----------------------------------------------------------------------------
+
+//-----------------------------------------------------------------------------
+// POSTS
+//-----------------------------------------------------------------------------
+
+.posts {
+    padding: 0;
+}
+
+.post_title {
+    font-size: 1.8em;
+    font-weight: normal;
+    padding-bottom: 6px;
+}
+
+.publish_date {
+    margin-top: -8px;
+    margin-bottom: 0px;
+    text-align: right;
+    font-size: 0.8em;
+    width: 490px;
+    color: #23af4c;
+}
+
+ul.posts li span {
+    float: right;
+    font-family: Monofur, Monaco, Courier;
+    color: #888;
+}
+
+ul.posts li a {
+    font-weight: 200;
+}
+
+div#post ul li {
+    list-style: circle;
+}
+
+.commentslink {
+    margin-bottom: 35px;
+    display: block;
+    border-bottom: solid 1px #dadada;
+    padding-bottom: 25px;
+}
+
+.scoot {
+    margin: 5px 5px 5px 0px;
+}
+
+.terminal {
+    background: #222021;
+    color: #ddd;
+}
+
+.im {
+    font-size: 0.95em;
+    line-height: 1.4em;
+    width: 650px;
+    font-family: 'Lucida Grande', 'Lucida Sans', 'Lucida Sans Unicode', Helvetica, Tahoma;
+    padding: 5px;
+    background-color: #FFB604;
+    color: #222;
+    border: solid 1px #fff;
+}
+
+.pink { color: #f5a2c6; }
+.green { color: #23af4c; }
+.blue { color: #0383c9; }
+.orange { color: #fba919; }
+
+a.pink:hover { border: solid 2px #f5a2c6; padding: 1px; text-decoration: none;  }
+a.green:hover { color: #212121; background-color: #23af4c; text-decoration: none; }
+a.blue:hover { color: #212121; background-color: #0383c9; text-decoration: none; }
+a.orange:hover { color: #fba919; padding: 1px; border: solid 2px #fba919; text-decoration: none; }
+.slogan a { padding: 3px; line-height: 2.5em; }
+
+/*
+pink #f5a2c6
+light-green #23af4c
+dark-green #2f8b49
+light-orange #fba919
+dark-orange #e39c1f
+*/
+
+//-----------------------------------------------------------------------------
+// POSTS END
+//-----------------------------------------------------------------------------
+
+//-----------------------------------------------------------------------------
+// MAIN CONTENT
+//-----------------------------------------------------------------------------
 
 #content {
     float: left;
@@ -259,27 +327,13 @@ div.slogan {
     }
 }
 
-/*** Footer ***/
+//-----------------------------------------------------------------------------
+// MAIN CONTENT END
+//-----------------------------------------------------------------------------
 
-#footer {
-    border-top: 4px solid #dadada;
-    clear: both;
-    color: gray;
-    font-size: 0.9em;
-    line-height: 1.6em;
-    margin: 0 auto;
-    padding: 8px 0;
-    text-align: right;
-    p {
-        margin: 0;
-        padding: 0;
-    }
-    a {
-        color: #808080;
-    }
-}
-
-/*** Various classes ***/
+//-----------------------------------------------------------------------------
+// CLASSES
+//-----------------------------------------------------------------------------
 
 .box {
     background: #4088b8;
@@ -334,3 +388,17 @@ div.slogan {
     margin: 6px 18px 2px 5px;
     padding: 2px;
 }
+
+//-----------------------------------------------------------------------------
+// CLASSES END
+//-----------------------------------------------------------------------------
+
+//-----------------------------------------------------------------------------
+// MEDIA-SPECIFIC SETTINGS
+//-----------------------------------------------------------------------------
+
+// media-specific settings missing
+
+//-----------------------------------------------------------------------------
+// MEDIA-SPECIFIC SETTINGS END
+//-----------------------------------------------------------------------------
