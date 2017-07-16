@@ -1,6 +1,6 @@
 ---
-layout: danhixon
-title: Test DH page
+layout: page
+title: Test page
 permalink: /test.html
 ---
 # Header
