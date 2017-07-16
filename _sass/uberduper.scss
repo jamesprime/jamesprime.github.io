@@ -81,14 +81,16 @@ dl {
 }
 
 ul ul,
-ol ol {
+ul ol,
+ol ol,
+ol ul {
     margin: 4px 0 4px 10px;
 }
 
 li {
     padding: 0 4px;
     color: #ccc;
-    list-style: none;
+    // list-style: none;
 }
 
 a {
