@@ -202,6 +202,8 @@ header {
 
     h1 {
         font: 40px/48px Merriweather; //, Copse, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        font-weight: 700; // Equivalent to "bold"
+        letter-spacing: -1px;
         color: #f3f3f3;
         text-shadow: 0 2px 0 #235796;
         margin: 0;
@@ -223,6 +225,7 @@ header {
         color: #fbfbfb; // Originally #d8d8d8; changed based on tota11y's contrast recommendations
         text-shadow: rgba(#000, .2) 0 1px 0;
         font-size: 18px;
+        font-weight: 400; // Equivalent to "normal"
         line-height: 1.5em;
         margin: 0;
     }
