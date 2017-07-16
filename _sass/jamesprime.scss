@@ -216,7 +216,6 @@ header {
         a {
             color: #f3f3f3;
             border-style: none;
-            text-align: center;
             &:hover {
                 color: #d9d9d9;
                 border-style: none;
@@ -226,6 +225,7 @@ header {
     h2 {
         color: #fbfbfb; // Originally #d8d8d8; changed based on tota11y's contrast recommendations
         text-shadow: rgba(#000, .2) 0 1px 0;
+        text-align: center;
         font-size: 18px;
         font-weight: 400; // Equivalent to "normal"
         line-height: 1.5em;
