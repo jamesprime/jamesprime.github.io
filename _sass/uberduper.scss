@@ -12,19 +12,19 @@ body {
 }
 
 h1 {
-    color: #1E8DC9; // Originally #0383c9; changed based on contrast-related recommendations from http://webaim.org/resources/contrastchecker/
+    color: #0088d1; // Originally #0383c9; changed based on contrast-related recommendations from http://webaim.org/resources/contrastchecker/
     font-size: 2.5em; // Originally 4.7em; default is 2em
     letter-spacing: -1px;
     margin: .5em 0;
     // padding: 30px 0 0 0;
 
     a {
-        color: #1E8DC9; // Originally #0383c9; changed based on contrast-related recommendations from http://webaim.org/resources/contrastchecker/
+        color: #0088d1; // Originally #0383c9; changed based on contrast-related recommendations from http://webaim.org/resources/contrastchecker/
         text-transform: none;
 
         &:hover {
             // color: #fba919;
-            color: #1E8DC9; // Originally #0383c9; changed based on contrast-related recommendations from http://webaim.org/resources/contrastchecker/
+            color: #0088d1; // Originally #0383c9; changed based on contrast-related recommendations from http://webaim.org/resources/contrastchecker/
             text-shadow: 1px 1px 10px #808080;
         }
     }
@@ -32,7 +32,7 @@ h1 {
 
 h2 {
     // border-bottom: 1px dashed #e5e5e5;
-    color: #32B5FB; // Originally #1E8DC9; changed based on contrast-related recommendations from http://webaim.org/resources/contrastchecker/
+    color: #1E8DC9; // Originally #1E8DC9; changed based on contrast-related recommendations from http://webaim.org/resources/contrastchecker/
     font-size: 1.8em; // Originally 1.7em; default is 1.5em
     font-weight: bold;
     letter-spacing: -1px;
@@ -42,7 +42,7 @@ h2 {
 
 h3 {
     // border-bottom: 1px dotted #e5e5e5;
-    color: #58C2FB; // Originally #fba919, then #3C98C9
+    color: #5ca8d1; // Originally #fba919, then #3C98C9
     font-size: 1.6em; // Originally 1.4em; default is 1.17em
     font-weight: bold;
     margin: .5em 0; // Originally 10px 0 8px
@@ -50,19 +50,19 @@ h3 {
 }
 
 h4 {
-    color: #7DCFFB; // Originally #23af4c, then #5AA3C9
+    color: #65a9cd; // Originally #23af4c, then #5AA3C9
     font-size: 1.4em; // Default is 1em
     margin: .5em 0;
 }
 
 h5 {
-    color: #A3DDFB; // Originally #79AEC9
+    color: #6da6c5; // Originally #79AEC9
     font-size: 1.2em; // Default is .83em
     margin: .5em 0;
 }
 
 h6 {
-    color: #C9EAFB; // Originally #97B8C9
+    color: #7ca5bb; // Originally #97B8C9
     font-size: 1em; // Default is .67em
     margin: .5em 0;
 }
