@@ -17,6 +17,8 @@ permalink: /test.html
 
 Testing, testing, 1, 2, 3...
 
+Here are some _underscores_, and here are some *asterisks*.
+
 * Unordered list
     * Unordered sub-list
     * Unordered sub-list item
