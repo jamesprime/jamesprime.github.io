@@ -17,7 +17,7 @@ permalink: /test.html
 
 Testing, testing, 1, 2, 3...
 
-Here are some _underscores_, which appear to do the same as *asterisks*, and here are some **double asterisks**.  Now here come some __double underscores__ and some _*single underscores with single asterisks*_.  Now what happens if we get some _**single underscores with double asterisks**_?
+Here are some _underscores_, which appear to do the same as *asterisks*, and here are some **double asterisks**.  Now here come some __double underscores__ and some _*single underscores with single asterisks*_.  Now what happens if we get some _**single underscores with double asterisks**_, or __*double underscores with single asterisks*__?
 
 > Here is a blockquote. Blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah.
 >
