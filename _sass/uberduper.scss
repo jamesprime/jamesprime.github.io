@@ -371,7 +371,7 @@ dark-orange #e39c1f
 // MAIN CONTENT
 //-----------------------------------------------------------------------------
 
-#content {
+.content {
     float: left;
     line-height: 1.5em;
     margin: 0;
@@ -384,7 +384,7 @@ dark-orange #e39c1f
     }
 }
 
-#contentalt {
+.contentalt {
     float: left;
     line-height: 1.5em;
     margin-right: 20px;
