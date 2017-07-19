@@ -197,7 +197,7 @@ header {
     }
 }
 
-#toplinks {
+.toplinks {
     font-size: .9em;
     padding: 5px 2px 2px 3px;
     text-align: right;
@@ -268,7 +268,7 @@ div.slogan {
     .leftbuttons {
         position: fixed;
         left: 50%;
-        margin-left: -350px; // Lines up with content box's left edge
+        margin-left: -400px; // Lines up with content box's left edge
     }
 
     .rightbuttons {
