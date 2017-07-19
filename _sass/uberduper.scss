@@ -267,7 +267,7 @@ div.slogan {
     .leftbuttons {
         position: fixed;
         left: 50%;
-        margin-left: -350px; // Lines up with content box's left edge
+        margin-left: -340px; // Lines up with content box's left edge
     }
 
     .rightbuttons {
@@ -288,7 +288,7 @@ div.slogan {
 
             a.button {
                 background-color: #404040;
-                color: #66a6c9;
+                // color: #66a6c9;
             }
         }
     }
