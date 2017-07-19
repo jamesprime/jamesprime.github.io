@@ -237,7 +237,7 @@ header {
     }
 }
 
-#banner {
+.banner {
     z-index: 100;
     left: 0;
     right: 50%;
@@ -325,7 +325,7 @@ header {
         }
     }
 
-    #logo {
+    .logo {
         position: absolute;
         height: 36px;
         width: 36px;
