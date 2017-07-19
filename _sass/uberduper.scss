@@ -254,7 +254,6 @@ div.slogan {
 
         li {
             display: inline;
-            padding: 0 8px 0 0;
 
             a.button {
                 background-color: #404040;
@@ -293,6 +292,10 @@ div.slogan {
 
         ul {
             margin-left: 0;
+
+            li {
+                padding: 0 8px 0 0;
+            }
         }
     }
 
@@ -301,6 +304,12 @@ div.slogan {
         position: relative;
         right: 0;
         // margin-right: -30px; // Lines up with content box's right edge
+
+        ul {
+            li {
+                padding: 0 0 0 8px;
+            }
+        }
     }
 }
 
