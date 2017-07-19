@@ -81,7 +81,7 @@ ol,
 // table settings missing
 // pre settings missing
 dl {
-    font-size: 1em;
+    font-size: 16px;
     margin: 2px 0 16px 0;
 }
 
@@ -90,12 +90,12 @@ ul ol,
 ol ol,
 ol ul {
     margin: 4px 0 4px 10px;
+    font-size: 16px;
 }
 
 li {
     padding: 0 4px;
     color: #ccc;
-    // list-style: none;
 }
 
 a {
@@ -452,7 +452,6 @@ dark-orange #e39c1f
     padding: 0;
     text-align: left;
     width: 500px;
-    margin: 0 auto;
 
     h3 {
         margin: 10px 0 8px;
