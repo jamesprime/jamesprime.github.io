@@ -446,7 +446,9 @@ a.orange:hover { color: #fba919; padding: 1px; border: solid 2px #fba919; text-d
 .slogan a { padding: 3px; line-height: 2.5em; }
 
 /*
-pink #f5a2c6
+pink #f5a2c6            li {
+                padding: 0 8px 0 0;
+            }
 light-green #23af4c
 dark-green #2f8b49
 light-orange #fba919
@@ -462,7 +464,7 @@ dark-orange #e39c1f
 //-----------------------------------------------------------------------------
 
 .content {
-    float: left;
+    // float: left;
     line-height: 1.5em;
     margin: 0;
     padding: 0;
