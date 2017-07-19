@@ -244,7 +244,7 @@ div.slogan {
     // border-radius: 0 2px 2px 0;
     // padding-right: 10px;
 
-    .button {
+    &.button {
         border: 1px solid #444;
         background: linear-gradient(#454545, #3A3A3A);
         border-radius: 20px 2px 20px 2px;
@@ -267,13 +267,13 @@ div.slogan {
         }
     }
 
-    .leftbuttons {
+    &.leftbuttons {
         position: relative;
         left: 50%;
         margin-left: -388px; // Lines up with content box's left edge
     }
 
-    .rightbuttons {
+    &.rightbuttons {
         position: relative;
         right: auto;
         // margin-right: -30px; // Lines up with content box's right edge
