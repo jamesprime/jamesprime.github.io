@@ -292,6 +292,7 @@ div.slogan {
     }
 
     &.rightbuttons {
+        float: right;
         position: relative;
         right: auto;
         // margin-right: -30px; // Lines up with content box's right edge
