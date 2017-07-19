@@ -219,12 +219,87 @@ div.slogan {
     }
 }
 
-#logo {
-    margin: -65px 10px -30px -50px;
-    float: right;
-    background: url('../images/octocat-logo.png');
-    height: 213px;
-    width: 204px;
+// .logo {
+//     margin: -65px 10px -30px -50px;
+//     float: right;
+//     background: url('../images/octocat-logo.png');
+//     height: 213px;
+//     width: 204px;
+// }
+
+.banner {
+    // z-index: 100;
+    // left: 0;
+    // right: 50%;
+    // height: 50px;
+    // margin-right: -382px;
+    // position: fixed;
+    // top: 115px;
+    // background: #fc0;
+    // border: 1px solid #f0b500;
+    // box-shadow: 0 1px 3px rgba(0, 0, 0, .25);
+    // border-radius: 0 2px 2px 0;
+    // padding-right: 10px;
+
+    .button {
+        border: 1px solid #333;
+        background: linear-gradient(#666, #333);
+        border-radius: 20px 2px 20px 2px;
+        box-shadow: inset 0 1px 0 rgba(255, 255, 255, .4), 0 1px 1px rgba(0, 0, 0, .1);
+        background-color: #4C4C4C;
+        margin-left: 5px;
+        padding: 10px 12px;
+        margin-top: 6px;
+        line-height: 14px;
+        font-size: 14px;
+        color: #CCC;
+        font-weight: bold;
+        display: inline-block;
+        text-align: center;
+
+        &:hover {
+            background: linear-gradient(#666, #666);
+            background-color: #404040;
+        }
+    }
+
+    .leftbuttons {
+        position: fixed;
+        left: 50%;
+        margin-left: -340px; // Lines up with content box's left edge
+    }
+
+    .rightbuttons {
+        float: right;
+        margin: 0 45px 0 0;
+    }
+
+    ul {
+        list-style: none;
+        height: 40px;
+        padding: 0;
+        float: left;
+        margin-left: 10px;
+
+        li {
+            display: inline;
+
+            a.button {
+                background-color: #404040;
+                color: #66a6c9;
+            }
+        }
+    }
+
+    .logo {
+        position: absolute;
+        height: 36px;
+        width: 36px;
+        right: 7px;
+        top: 7px;
+        display: block;
+        background: url("../images/octocat-logo.png");
+    }
 }
 
 //-----------------------------------------------------------------------------
