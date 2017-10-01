@@ -16,7 +16,7 @@ gems:
 permalink: /blog/:year/:month/:day/:title
 
 # Handling reading
-include: [".htaccess", "_pages"]
+include: [".htaccess", "_pages", "_posts"]
 
 defaults:
   - scope:
