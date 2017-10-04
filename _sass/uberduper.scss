@@ -2,6 +2,10 @@
 //  Dan Hixon's /css/default.css, sassified and tweaked by James Prime for personal use
 //
 
+@import 'normalize';
+@import 'fonts';
+@import 'rouge-base16-dark';
+
 body {
     background: #373737;
     color: #e5e5e5;
