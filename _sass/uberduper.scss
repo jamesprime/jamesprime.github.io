@@ -287,13 +287,13 @@ div.slogan {
 
     .buttons {
         width: 750px;
-        left: 50px; // Needs to be the positive-but-equal value for .banner left
+        // left: 50px; // Needs to be the positive-but-equal value for .banner left
     }
 
     .leftbuttons {
         float: left;
         position: relative;
-        left: 0;
+        left: 50px;
         // margin-left: -388px; // Lines up with content box's left edge
 
         ul {
