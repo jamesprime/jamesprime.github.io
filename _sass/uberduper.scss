@@ -232,6 +232,7 @@ div.slogan {
     left: 0;
     right: 0;
     height: 40px;
+    line-height: 40px; // Trick to centre contents vertically, from https://www.w3schools.com/css/css_align.asp
     // margin-right: -382px;
     width: 750px;
     position: relative;
