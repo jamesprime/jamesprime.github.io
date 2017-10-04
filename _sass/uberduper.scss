@@ -290,7 +290,7 @@ div.slogan {
         position: absolute;
         left: 50px; // Needs to be the positive-but-equal value for .banner left
         right: 50px; // Needs to be the positive-but-equal value for .banner left
-        height: 40px;
+        max-height: 40px;
         line-height: 40px; // Trick to centre contents vertically, from https://www.w3schools.com/css/
     }
 
