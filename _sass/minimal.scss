@@ -1,0 +1,579 @@
+//
+//  Minimal style, based on Dan Hixon's /css/default.css
+//
+
+body {
+    background: #373737;
+    color: #e5e5e5;
+    font: 86% Merriweather, Georgia, Charter, 'Bitstream Charter', serif;
+    line-height: 1.2em;
+    margin: 0 auto;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+    line-height: 1em;
+    margin: 0 0 15px;
+}
+
+h1 {
+    color: #0088d1; // Originally #0383c9; changed based on contrast-related recommendations from http://webaim.org/resources/contrastchecker/
+    font-size: 2.75em; // Originally 4.7em; default is 2em
+    letter-spacing: -1px;
+    // padding: 30px 0 0 0;
+
+    a {
+        color: #0088d1; // Originally #0383c9; changed based on contrast-related recommendations from http://webaim.org/resources/contrastchecker/
+        text-transform: none;
+
+        &:hover {
+            // color: #fba919;
+            color: #0088d1; // Originally #0383c9; changed based on contrast-related recommendations from http://webaim.org/resources/contrastchecker/
+            text-shadow: 1px 1px 10px #808080;
+        }
+    }
+
+    &.page_title {
+        color: #fba919;
+    }
+}
+
+h2 {
+    // border-bottom: 1px dashed #e5e5e5;
+    color: #2890c9; // Originally #1E8DC9; changed based on contrast-related recommendations from http://webaim.org/resources/contrastchecker/, then #1f92d1, then #1c8cc9
+    font-size: 2.25em; // Originally 1.7em; default is 1.5em
+    letter-spacing: -1px;
+    // padding: 0 2px 4px 0;
+}
+
+h3 {
+    // border-bottom: 1px dotted #e5e5e5;
+    color: #4d9ec9; // Originally #fba919, then #3C98C9, then #3e9dd1, then #3495c9, then #4d9ec9, then #5aa2c9
+    font-size: 2em; // Originally 1.4em; default is 1.17em
+    // padding: 1px 2px 4px 0;
+}
+
+h4 {
+    color: #66a6c9; // Originally #23af4c, then #5AA3C9, then #5ea8d1, then #4d9ec9
+    font-size: 1.85em; // Default is 1em
+}
+
+h5 {
+    color: #7eafc9; // Originally #79AEC9, then #7db3d1, then #66a6c9
+    font-size: 1.6em; // Default is .83em
+}
+
+h6 {
+    color: #97b8c9; // Originally #97B8C9, then #9cbed1, then #7eafc9
+    font-size: 1.4em; // Default is .67em
+}
+
+p {
+    margin: 0 0 15px;
+    font-size: 16px;
+}
+
+ul,
+ol,
+// table settings missing
+// pre settings missing
+dl {
+    font-size: 16px;
+    margin: 2px 0 16px 0;
+}
+
+ul ul,
+ul ol,
+ol ol,
+ol ul {
+    margin: 4px 0 4px 10px;
+    font-size: 16px;
+}
+
+li {
+    padding: 0 4px;
+    color: #ccc;
+}
+
+a {
+    color: #0383c9;
+    font-weight: 700;
+    text-decoration: none;
+
+    &:hover {
+        // text-decoration: underline;
+        color: #fba919;
+    }
+
+    img {
+        border: 0;
+    }
+}
+
+// strong settings missing
+
+// .wrapper settings missing
+
+label {
+    margin-left: 5px;
+}
+
+blockquote {
+    border-left: 8px solid #0383c9;
+    background: #474747;
+    font-size: 1em;
+    margin: 20px 10px;
+    padding: 10px 10px 10px 10px;
+
+    span {
+        display: block;
+        float: right;
+        padding-right: 20px;
+    }
+
+    p {
+        margin: 0;
+        padding: 5px 0;
+    }
+}
+
+// code settings missing
+
+pre {
+    font-family: Monaco, Courier;
+    background: #191919;
+    border: dashed 2px #e5e5e5;
+    width: 600px;
+    padding: 5px;
+    font-size: 1em;
+    line-height: 2em;
+    clear: both;
+}
+
+// table settings missing
+
+// th settings missing
+
+// td settings missing
+
+// hr settings missing
+
+// dt settings missing
+
+//-----------------------------------------------------------------------------
+// MAIN WRAP AND HEADER
+//-----------------------------------------------------------------------------
+
+.wrapper {
+    color: #f4f4f4;
+    margin: 10px auto;
+    padding: 0;
+    width: 750px;
+}
+
+header {
+    width: 750px;
+    margin: auto;
+
+    h1 {
+        // font: 40px/48px Merriweather, Georgia, Charter, 'Bitstream Charter', serif;
+        font-size: 4.7em;
+        line-height: .9em;
+        margin: 0 0 15px 0;
+        padding: 15px 0 0 0;
+    }
+
+    h2 {
+        border: none;
+        color: #c5c5c5;
+        font: 86% Merriweather, Georgia, Charter, 'Bitstream Charter', serif;
+        line-height: .9em;
+        font-size: 1.7em;
+        font-weight: 200;
+        letter-spacing: -1px;
+        margin: 0 auto 15px auto;
+    }
+}
+
+.toplinks {
+    font-size: .9em;
+    padding: 5px 2px 2px 3px;
+    text-align: right;
+
+    a {
+        color: gray;
+    }
+}
+
+div.slogan {
+    color: gray;
+    font-size: 1.5em;
+    font-weight: 700;
+    letter-spacing: -1px;
+    line-height: 1.2em;
+    margin: -15px 0 60px 0;
+
+    div {
+        display: inline;
+    }
+}
+
+// .logo {
+//     margin: -65px 10px -30px -50px;
+//     float: right;
+//     background: url('../images/octocat-logo.png');
+//     height: 213px;
+//     width: 204px;
+// }
+
+.banner {
+    z-index: 100;
+    left: -50px;
+    right: 0;
+    height: 40px;
+    line-height: 40px; // Trick to centre contents vertically, from https://www.w3schools.com/css/css_align.asp
+    // margin-right: -382px;
+    width: 850px;
+    position: relative;
+    // top: 115px;
+    // background: #fc0;
+    // border: 1px solid #f0b500;
+    // box-shadow: 0 1px 3px rgba(0, 0, 0, .25);
+    // border-radius: 0 2px 2px 0;
+    // padding-right: 10px;
+    border-top: 2px solid #888;
+    border-bottom: 2px solid #888;
+    padding: 5px 0;
+
+    ul {
+        list-style: none;
+        height: 40px;
+        padding: 0;
+        float: left;
+        margin: 0 0 0 10px;
+        color: #CCC;
+
+        li {
+            display: inline;
+
+            a.button {
+                background-color: #404040;
+            }
+        }
+    }
+
+    .button {
+        border: 1px solid #444;
+        background: linear-gradient(#454545, #3A3A3A);
+        border-radius: 20px 2px 20px 2px;
+        box-shadow: inset 0 1px 0 rgba(255, 255, 255, .3), 0 1px 1px rgba(0, 0, 0, .1);
+        background-color: #3D3D3D;
+        margin-left: 0;
+        padding: 10px 12px;
+        line-height: 14px;
+        font-size: 14px;
+        color: #CCC;
+        font-weight: bold;
+        display: inline-block;
+        text-align: center;
+
+        &:hover {
+            background: linear-gradient(#454545, #454545);
+            background-color: #454545;
+            color: #66a6c9;
+        }
+    }
+
+    .buttons {
+        // width: 850px;
+        position: absolute;
+        left: 50px; // Needs to be the positive-but-equal value for .banner left
+        right: 50px; // Needs to be the positive-but-equal value for .banner left
+        height: 40px;
+        line-height: 40px; // Trick to centre contents vertically, from https://www.w3schools.com/css/
+    }
+
+    .leftbuttons {
+        float: left;
+        position: relative;
+        left: 0;
+        // margin-left: -388px; // Lines up with content box's left edge
+
+        ul {
+            margin-left: 0;
+
+            li {
+                padding: 0 8px 0 0;
+            }
+        }
+    }
+
+    .rightbuttons {
+        float: right;
+        position: relative;
+        right: 0;
+        // margin-right: -30px; // Lines up with content box's right edge
+
+        ul {
+            li {
+                padding: 0 0 0 8px;
+            }
+        }
+    }
+}
+
+//-----------------------------------------------------------------------------
+// MAIN WRAP AND HEADER END
+//-----------------------------------------------------------------------------
+
+// #banner settings missing
+
+// section settings missing
+
+// small settings missing
+
+// nav settings missing
+
+//-----------------------------------------------------------------------------
+// FOOTER
+//-----------------------------------------------------------------------------
+
+.footer {
+    border-top: 4px solid #dadada;
+    clear: both;
+    color: gray;
+    font-size: .9em;
+    line-height: 1.6em;
+    margin: 0 auto;
+    padding: 8px 0;
+    text-align: right;
+    // position: fixed;
+
+    p {
+        margin: 0;
+        padding: 0;
+    }
+
+    a {
+        color: #808080;
+    }
+
+    // Inline links please
+    li {
+        display: inline;
+        // margin-left: 20px;
+        // margin-right: 20px;
+    }
+
+    ul {
+        text-align: center;
+
+        span {
+            color: #bfbfbf;
+            padding: 0 2em;
+        }
+    }
+}
+
+//-----------------------------------------------------------------------------
+// FOOTER END
+//-----------------------------------------------------------------------------
+
+//-----------------------------------------------------------------------------
+// POSTS
+//-----------------------------------------------------------------------------
+
+.posts {
+    padding: 0;
+}
+
+.post_title {
+    font-size: 1.8em;
+    font-weight: normal;
+    padding-bottom: 6px;
+}
+
+.publish_date {
+    margin-top: -8px;
+    margin-bottom: 0;
+    text-align: right;
+    font-size: .8em;
+    width: 490px;
+    color: #23af4c;
+}
+
+ul.posts li span {
+    float: right;
+    font-family: Monofur, Monaco, Courier;
+    color: #888;
+}
+
+ul.posts li a {
+    font-weight: 200;
+}
+
+div#post ul li {
+    list-style: circle;
+}
+
+.commentslink {
+    margin-bottom: 35px;
+    display: block;
+    border-bottom: solid 1px #dadada;
+    padding-bottom: 25px;
+}
+
+.scoot {
+    margin: 5px 5px 5px 0;
+}
+
+.terminal {
+    background: #222021;
+    color: #ddd;
+}
+
+.im {
+    font-size: .95em;
+    line-height: 1.4em;
+    width: 650px;
+    font-family: 'Lucida Grande', 'Lucida Sans', 'Lucida Sans Unicode', Helvetica, Tahoma;
+    padding: 5px;
+    background-color: #FFB604;
+    color: #222;
+    border: solid 1px #fff;
+}
+
+.pink { color: #f5a2c6; }
+.green { color: #23af4c; }
+.blue { color: #0383c9; }
+.orange { color: #fba919; }
+
+a.pink:hover { border: solid 2px #f5a2c6; padding: 1px; text-decoration: none;  }
+a.green:hover { color: #212121; background-color: #23af4c; text-decoration: none; }
+a.blue:hover { color: #212121; background-color: #0383c9; text-decoration: none; }
+a.orange:hover { color: #fba919; padding: 1px; border: solid 2px #fba919; text-decoration: none; }
+.slogan a { padding: 3px; line-height: 2.5em; }
+
+/*
+pink #f5a2c6            li {
+                padding: 0 8px 0 0;
+            }
+light-green #23af4c
+dark-green #2f8b49
+light-orange #fba919
+dark-orange #e39c1f
+*/
+
+//-----------------------------------------------------------------------------
+// POSTS END
+//-----------------------------------------------------------------------------
+
+//-----------------------------------------------------------------------------
+// MAIN CONTENT
+//-----------------------------------------------------------------------------
+
+.content {
+    float: left;
+    // border-top: 2px solid #888;
+    line-height: 1.5em;
+    margin: 0 auto;
+    padding: 0;
+    text-align: left;
+    width: 750px;
+
+    // h3 {
+    //     margin: 10px 0 8px;
+    // }
+}
+
+.contentalt {
+    float: left;
+    line-height: 1.5em;
+    margin-right: 20px;
+    padding: 0;
+    text-align: left;
+    width: 750px;
+
+    // h3 {
+    //     margin: 10px 0 8px;
+    // }
+}
+
+//-----------------------------------------------------------------------------
+// MAIN CONTENT END
+//-----------------------------------------------------------------------------
+
+//-----------------------------------------------------------------------------
+// CLASSES
+//-----------------------------------------------------------------------------
+
+.box {
+    background: #4088b8;
+    border: 1px solid #c8c8c8;
+    color: #fff;
+    font-size: 0.9em;
+    line-height: 1.4em;
+    padding: 10px 10px 10px 13px;
+
+    a {
+        color: #f0f0f0;
+    }
+}
+
+.left {
+    float: left;
+    margin: 0 15px 4px 0;
+}
+
+.right {
+    float: right;
+    margin: 0 0 4px 15px;
+}
+
+.readmore {
+    margin: -10px 10px 12px 0;
+    text-align: right;
+}
+
+.timestamp {
+    font-size: 1.2em;
+    margin: -5px 0 15px 10px;
+
+    a {
+        font-weight: normal;
+    }
+}
+
+.clear {
+    clear: both;
+}
+
+.fade {
+    color: #c5c5c5;
+}
+
+.gray {
+    color: gray;
+}
+
+.photo {
+    background: #fff;
+    border: 1px solid #bababa;
+    margin: 6px 18px 2px 5px;
+    padding: 2px;
+}
+
+//-----------------------------------------------------------------------------
+// CLASSES END
+//-----------------------------------------------------------------------------
+
+//-----------------------------------------------------------------------------
+// MEDIA-SPECIFIC SETTINGS
+//-----------------------------------------------------------------------------
+
+// media-specific settings missing
+
+//-----------------------------------------------------------------------------
+// MEDIA-SPECIFIC SETTINGS END
+//-----------------------------------------------------------------------------
