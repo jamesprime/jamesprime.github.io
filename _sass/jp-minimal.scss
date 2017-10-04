@@ -238,8 +238,8 @@ div.slogan {
     z-index: 100;
     left: -50px;
     right: 0;
-    height: 40px;
-    line-height: 40px; // Trick to centre contents vertically, from https://www.w3schools.com/css/css_align.asp
+    height: 20px;
+    line-height: 20px; // Trick to centre contents vertically, from https://www.w3schools.com/css/css_align.asp
     // margin-right: -382px;
     width: 850px;
     position: relative;
@@ -255,7 +255,7 @@ div.slogan {
 
     ul {
         list-style: none;
-        height: 40px;
+        height: 20px;
         padding: 0;
         float: left;
         margin: 0 0 0 10px;
@@ -297,8 +297,8 @@ div.slogan {
         position: absolute;
         left: 50px; // Needs to be the positive-but-equal value for .banner left
         right: 50px; // Needs to be the positive-but-equal value for .banner left
-        height: 40px;
-        line-height: 40px; // Trick to centre contents vertically, from https://www.w3schools.com/css/
+        height: 20px;
+        line-height: 20px; // Trick to centre contents vertically, from https://www.w3schools.com/css/
     }
 
     .leftbuttons {
