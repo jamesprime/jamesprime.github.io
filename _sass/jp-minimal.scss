@@ -1,5 +1,5 @@
 //
-//  Minimal style, based on Dan Hixon's /css/default.css
+//  Minimal style, based on Dan Hixon's /css/default.css (can be found in this repository as /ignore/assets/css/default.css), just for reference
 //
 
 @import 'normalize';
@@ -40,6 +40,8 @@ h1 {
 
     &.page_title {
         color: #fba919;
+        font-size: 3em;
+        margin-bottom: 20px;
     }
 }
 
