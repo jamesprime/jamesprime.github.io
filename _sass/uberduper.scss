@@ -45,7 +45,6 @@ h2 {
     font-size: 2.25em; // Originally 1.7em; default is 1.5em
     font-weight: bold;
     letter-spacing: -1px;
-    margin: .5em 0;
     // padding: 0 2px 4px 0;
 }
 
@@ -53,27 +52,22 @@ h3 {
     // border-bottom: 1px dotted #e5e5e5;
     color: #4d9ec9; // Originally #fba919, then #3C98C9, then #3e9dd1, then #3495c9, then #4d9ec9, then #5aa2c9
     font-size: 2em; // Originally 1.4em; default is 1.17em
-    font-weight: bold;
-    margin: .5em 0; // Originally 10px 0 8px
     // padding: 1px 2px 4px 0;
 }
 
 h4 {
     color: #66a6c9; // Originally #23af4c, then #5AA3C9, then #5ea8d1, then #4d9ec9
     font-size: 1.85em; // Default is 1em
-    margin: .5em 0;
 }
 
 h5 {
     color: #7eafc9; // Originally #79AEC9, then #7db3d1, then #66a6c9
     font-size: 1.6em; // Default is .83em
-    margin: .5em 0;
 }
 
 h6 {
     color: #97b8c9; // Originally #97B8C9, then #9cbed1, then #7eafc9
     font-size: 1.4em; // Default is .67em
-    margin: .5em 0;
 }
 
 p {
