@@ -24,7 +24,8 @@ h4,
 h5,
 h6 {
     color: #333;
-    margin: 0 0 10px;
+    font-weight: bold;
+    margin: 10px 0;
 }
 
 p,
@@ -46,7 +47,6 @@ h1 {
     // font-size: 28px;
     font-size: 2.75em; // Originally 28px; default is 2em
     letter-spacing: -1px;
-    margin: 5px 0;
 
     &.page_title {
         color: #4276b6;
@@ -58,35 +58,25 @@ h2 {
     // font-size: 24px;
     font-size: 2.25em; // Originally 24px; default is 1.5em
     color: #393939;
-    font-weight: bold;
     letter-spacing: -1px;
-    margin: 5px 0;
 }
 
 h3 {
     // font-size: 18px;
     font-size: 2em; // Originally 18px; default is 1.17em
     // line-height: 24px;
-    font-weight: bold;
-    margin: 5px 0;
 }
 
 h4 {
     font-size: 1.85em; // Default is 1em
-    font-weight: bold;
-    margin: 5px 0;
 }
 
 h5 {
     font-size: 1.6em; // Default is .83em
-    font-weight: bold;
-    margin: 5px 0;
 }
 
 h6 {
     font-size: 1.4em; // Default is .67em
-    font-weight: bold;
-    margin: 5px 0;
 }
 
 h3,
