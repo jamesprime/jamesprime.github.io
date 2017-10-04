@@ -271,13 +271,8 @@ div.slogan {
     }
 
     .button {
-        // border: 1px solid #444;
-        // background: linear-gradient(#454545, #3A3A3A);
-        // border-radius: 20px 2px 20px 2px;
-        // box-shadow: inset 0 1px 0 rgba(255, 255, 255, .3), 0 1px 1px rgba(0, 0, 0, .1);
-        // background-color: #3D3D3D;
         margin-left: 0;
-        padding: 10px 12px;
+        // padding: 10px 12px;
         line-height: 14px;
         font-size: 14px;
         color: #CCC;
@@ -286,14 +281,11 @@ div.slogan {
         text-align: center;
 
         &:hover {
-            // background: linear-gradient(#454545, #454545);
-            // background-color: #454545;
             color: #66a6c9;
         }
     }
 
     .buttons {
-        // width: 850px;
         position: absolute;
         left: 50px; // Needs to be the positive-but-equal value for .banner left
         right: 50px; // Needs to be the positive-but-equal value for .banner left
@@ -305,7 +297,6 @@ div.slogan {
         float: left;
         position: relative;
         left: 0;
-        // margin-left: -388px; // Lines up with content box's left edge
 
         ul {
             margin-left: 0;
@@ -320,7 +311,6 @@ div.slogan {
         float: right;
         position: relative;
         right: 0;
-        // margin-right: -30px; // Lines up with content box's right edge
 
         ul {
             li {
