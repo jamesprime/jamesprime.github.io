@@ -229,7 +229,7 @@ div.slogan {
 
 .banner {
     z-index: 100;
-    left: 0;
+    left: -50px;
     right: 0;
     height: 40px;
     line-height: 40px; // Trick to centre contents vertically, from https://www.w3schools.com/css/css_align.asp
