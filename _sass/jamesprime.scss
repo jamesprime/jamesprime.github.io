@@ -43,21 +43,37 @@ h3 {
 }
 
 h1 {
-    font-size: 28px;
+    // font-size: 28px;
+    font-size: 2.75em; // Originally 28px; default is 2em
 
     &.page_title {
         color: #4276b6;
+        font-size: 3em;
     }
 }
 
 h2 {
-    font-size: 24px;
+    // font-size: 24px;
+    font-size: 2.25em; // Originally 24px; default is 1.5em
     color: #393939;
 }
 
 h3 {
-    font-size: 18px;
+    // font-size: 18px;
+    font-size: 2em; // Originally 18px; default is 1.17em
     line-height: 24px;
+}
+
+h4 {
+    font-size: 1.85em; // Default is 1em
+}
+
+h5 {
+    font-size: 1.6em; // Default is .83em
+}
+
+h6 {
+    font-size: 1.4em; // Default is .67em
 }
 
 h3,

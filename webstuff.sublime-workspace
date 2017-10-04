@@ -1,0 +1,355 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"bac",
+				"background-color"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/LaTeXing/LaTeX.sublime-build",
+					""
+				],
+				[
+					"Packages/LaTeXing/LaTeX.sublime-build",
+					"Clean up Files"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					""
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Traditional"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"PdfLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"XeLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"LuaLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder - PdfLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder - XeLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder - LuaLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Script Builder"
+				],
+				[
+					"Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/LaTeXing/LaTeX.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "ui",
+		"selected_items":
+		[
+			[
+				"ui",
+				"UI: Select Theme"
+			],
+			[
+				"resou",
+				"PackageResourceViewer: Extract Package"
+			],
+			[
+				"REs",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"UI",
+				"UI: Select Theme"
+			],
+			[
+				"reso",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"theme",
+				"UI: Select Theme"
+			],
+			[
+				"open",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"open res",
+				"PackageResourceViewer: Open Resource"
+			]
+		],
+		"width": 605.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"font_face()",
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/james/webstuff"
+	],
+	"file_history":
+	[
+		"/home/james/mfarmer/index.md",
+		"/home/james/.config/sublime-text-3/Packages/User/Theme - Cool/Cool.sublime-theme",
+		"/home/james/.config/sublime-text-3/Packages/User/Theme - Default/Default_2017-09-14_Deprecated.sublime-theme",
+		"/home/james/.config/sublime-text-3/Packages/User/Theme - Default/Default.sublime-theme",
+		"/home/james/.config/sublime-text-3/Packages/Theme - Default/adaptive/Adaptive.sublime-theme",
+		"/home/james/.config/sublime-text-3/Packages/User/testing/DefaultDiffs.diff",
+		"/home/james/.config/sublime-text-3/Packages/User/testing/Default.sublime-theme",
+		"/home/james/.config/sublime-text-3/Packages/Theme - Default/common/light/button.png",
+		"/home/james/.config/sublime-text-3/Packages/Theme - Default/common/dark/button.png",
+		"/home/james/.config/sublime-text-3/Packages/Theme - Default/common/dark/tab_scroll_right@2x.png",
+		"/home/james/.config/sublime-text-3/Packages/User/Theme - Cool/Widget.sublime-settings",
+		"/home/james/.config/sublime-text-3/Packages/User/Theme - Default/Widgetings.stTheme",
+		"/home/james/.config/sublime-text-3/Packages/Theme - Default/adaptive/Widget - Adaptive.sublime-settings",
+		"/home/james/.config/sublime-text-3/Packages/User/Theme - Default/Widgets.stTheme",
+		"/home/james/.config/sublime-text-3/Packages/User/Theme - Default/Widget.sublime-settings",
+		"/home/james/words/0y_Appendices.tex",
+		"/home/james/words/scolecite.inp",
+		"/home/james/words/scolecite.gin",
+		"/home/james/words/0x-04_ResultsDiscussion.tex",
+		"/home/james/words/0x-02_Hypothesis.tex",
+		"/home/james/Documents/BookmarksHistory/History_Firefox_2017-09-01.json",
+		"/home/james/writings/isaac_hospital/2017-04-21.tex",
+		"/home/james/words/notes/main.tex",
+		"/home/james/words/notes/UpgradeReport_2017-03-02.tar",
+		"/home/james/writings/isaac_hospital/main.tex",
+		"/home/james/writings/isaac_hospital/00_Beeline.tex",
+		"/home/james/words/notes/0z_Stuff.tex",
+		"/home/james/words/log/2017-07.tex",
+		"/home/james/words/log/2017-06.tex",
+		"/home/james/words/WM_Halls.txt",
+		"/home/james/Documents/DnDCharacter_2017-08-14.txt",
+		"/home/james/words/WM_IsaacListsReturn.txt",
+		"/home/james/writings/isaacwords/2017-08-04.md",
+		"/home/james/words/WM_Isaac.txt",
+		"/home/james/words/WM_IsaacLists.txt",
+		"/home/james/words/log/2017-08.tex",
+		"/home/james/words/upgradereport.sublime-project",
+		"/home/james/words/words.sublime-project",
+		"/home/james/Documents/VARKResults.txt",
+		"/home/james/words/00_ToDo.tex",
+		"/home/james/words/WM_Lists.txt",
+		"/home/james/words/log/main.tex",
+		"/home/james/bin/jmol_cp2k.spt",
+		"/home/james/words/log/meetings/Dewi_2017-06-05.tex",
+		"/home/james/words/posters/latex/SecondYearPoster_Landscape_a0posterClass.tex",
+		"/home/james/bin/jmol_test.spt",
+		"/home/james/bin/jmol_export.spt",
+		"/home/james/.themes/NumixBlue/gtk-3.0/gtk.css",
+		"/home/james/words/log/meetings/Dewi_2015-12-10.tex",
+		"/home/james/.themes/NumixPrime/gtk-3.0/gtk.css",
+		"/home/james/.themes/NumixPrime/gtk-3.0/gtk-light.css",
+		"/home/james/.themes/NumixPrime/gtk-3.0/gtk-dark.css",
+		"/home/james/bin/gulp_convert.sh",
+		"/home/james/Documents/UbuntuThemesDownloaded_2017-06-16.txt",
+		"/home/james/words/04-03_LAU-TP.tex",
+		"/home/james/words/02-04_Expts.tex",
+		"/home/james/words/01-04_OtherStuff.tex",
+		"/home/james/words/01-03_Laumontite.tex",
+		"/home/james/.config/sublime-text-3/Packages/User/ThemeThings/SyntaxHighlighting/primeblues.tmTheme",
+		"/home/james/.config/sublime-text-3/Packages/User/ThemeThings/SyntaxHighlighting/CoolFluffed.tmTheme",
+		"/home/james/.config/sublime-text-3/Packages/User/ThemeThings/SyntaxHighlighting/MonokaiFluffed.tmTheme",
+		"/home/james/.config/sublime-text-3/Packages/User/Theme - Default/WidgetingsPrimeblues.stTheme",
+		"/home/james/words/02-07_GOTechniques.tex",
+		"/home/james/words/02-06_LOTechniques.tex",
+		"/home/james/words/02-05_Models.tex",
+		"/home/james/words/03-04_Laumontite.tex",
+		"/home/james/words/03-01_NATsInGULP.tex",
+		"/home/james/words/02-03_LAUs.tex",
+		"/home/james/words/0z_Bibliography.tex",
+		"/home/james/words/00_Preamble.tex",
+		"/home/james/words/unsrtnatnourl.dbj",
+		"/home/james/words/unsrtnatnourl.bst",
+		"/home/james/words/02-01_ZeoDetails.tex",
+		"/home/james/words/01-01_Zeolites.tex",
+		"/home/james/words/01-02_Natrolites.tex",
+		"/home/james/words/02-02_NATs.tex",
+		"/home/james/words/01_Introduction.tex"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 112.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "webstuff.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 217.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
