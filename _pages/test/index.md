@@ -3,7 +3,7 @@ layout: page
 title: Test page
 permalink: /test.html
 ---
-# Header
+# Header 1
 
 ## Header 2
 
