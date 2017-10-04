@@ -242,6 +242,7 @@ div.slogan {
     // border-radius: 0 2px 2px 0;
     // padding-right: 10px;
     border-top: 2px solid #888;
+    border-bottom: 2px solid #888;
 
     ul {
         list-style: none;
@@ -464,16 +465,16 @@ dark-orange #e39c1f
 
 .content {
     float: left;
-    border-top: 2px solid #888;
+    // border-top: 2px solid #888;
     line-height: 1.5em;
     margin: 0 auto;
     padding: 0;
     text-align: left;
     width: 750px;
 
-    h3 {
-        margin: 10px 0 8px;
-    }
+    // h3 {
+    //     margin: 10px 0 8px;
+    // }
 }
 
 .contentalt {
@@ -484,9 +485,9 @@ dark-orange #e39c1f
     text-align: left;
     width: 750px;
 
-    h3 {
-        margin: 10px 0 8px;
-    }
+    // h3 {
+    //     margin: 10px 0 8px;
+    // }
 }
 
 //-----------------------------------------------------------------------------
