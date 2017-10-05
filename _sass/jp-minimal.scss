@@ -236,19 +236,13 @@ div.slogan {
 
 .banner {
     z-index: 100;
-    left: -50px;
+    // left: -50px;
+    left: 0;
     right: 0;
     height: 20px;
     line-height: 20px; // Trick to centre contents vertically, from https://www.w3schools.com/css/css_align.asp
-    // margin-right: -382px;
-    width: 850px;
+    width: 750px;
     position: relative;
-    // top: 115px;
-    // background: #fc0;
-    // border: 1px solid #f0b500;
-    // box-shadow: 0 1px 3px rgba(0, 0, 0, .25);
-    // border-radius: 0 2px 2px 0;
-    // padding-right: 10px;
     border-top: 2px solid #888;
     border-bottom: 2px solid #888;
     padding: 5px 0;
@@ -287,8 +281,8 @@ div.slogan {
 
     .buttons {
         position: absolute;
-        left: 50px; // Needs to be the positive-but-equal value for .banner left
-        right: 50px; // Needs to be the positive-but-equal value for .banner left
+        left: 20px;
+        right: 20px;
         height: 20px;
         line-height: 20px; // Trick to centre contents vertically, from https://www.w3schools.com/css/
     }
