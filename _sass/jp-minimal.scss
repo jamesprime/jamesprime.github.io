@@ -192,7 +192,8 @@ header {
 
     h2 {
         border: none;
-        color: #c5c5c5;
+        // color: #c5c5c5;
+        color: #B0B0B0;
         font: 86% Merriweather, Georgia, Charter, 'Bitstream Charter', serif;
         line-height: .9em;
         font-size: 1.7em;
@@ -200,6 +201,7 @@ header {
         letter-spacing: -1px;
         margin: 0 auto 15px auto;
         // display: none; // Hiding this for the moment!
+        font-style: italic;
     }
 }
 
