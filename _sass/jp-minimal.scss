@@ -389,13 +389,13 @@ footer {
     padding: 0;
 }
 
-.post_title {
+.post-title {
     font-size: 1.8em;
     font-weight: normal;
     padding-bottom: 6px;
 }
 
-.publish_date {
+.publish-date {
     margin-top: -8px;
     margin-bottom: 0;
     text-align: right;
@@ -412,6 +412,10 @@ ul.posts li span {
 
 ul.posts li a {
     font-weight: 200;
+}
+
+ul.posts li {
+    list-style-position: inside;
 }
 
 div#post ul li {
