@@ -12,6 +12,15 @@ markdown: kramdown
 gems:
   - jekyll-mentions
 
+# Collections
+collections_dir: _collections
+collections:
+  - code
+  - dft
+  - projects
+  - python
+  - research
+
 # Adds /blog/ in between homepage URL and year/month/day/title.html
 permalink: /blog/:year/:month/:day/:title
 
