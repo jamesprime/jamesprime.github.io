@@ -13,7 +13,7 @@ gems:
   - jekyll-mentions
 
 # Collections
-collections_dir: _collections
+#collections_dir: _collections
 collections:
   - code:
       output: true
