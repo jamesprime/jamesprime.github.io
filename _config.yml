@@ -17,14 +17,19 @@ collections_dir: _collections
 collections:
   - code
       output: true
+      permalink: /:collection/:name
   - dft
       output: true
+      permalink: /:collection/:name
   - projects
       output: true
+      permalink: /:collection/:name
   - python
       output: true
+      permalink: /:collection/:name
   - research
       output: true
+      permalink: /:collection/:name
 
 # Adds /blog/ in between homepage URL and year/month/day/title.html
 permalink: /blog/:year/:month/:day/:title
