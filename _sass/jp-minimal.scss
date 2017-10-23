@@ -261,9 +261,19 @@ div.slogan {
 
         li {
             display: inline;
+            position: relative;
 
             a.button {
                 // background-color: #404040;
+            }
+
+            ul {
+                visibility: hidden;
+            }
+
+            &:hover > ul {
+                visibility: visible;
+                position: absolute;
             }
         }
     }
