@@ -16,10 +16,15 @@ gems:
 collections_dir: _collections
 collections:
   - code
+      output: true
   - dft
+      output: true
   - projects
+      output: true
   - python
+      output: true
   - research
+      output: true
 
 # Adds /blog/ in between homepage URL and year/month/day/title.html
 permalink: /blog/:year/:month/:day/:title
