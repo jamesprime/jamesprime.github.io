@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Test page
-permalink: /research-test.html
 ---
 # Header 1
 
