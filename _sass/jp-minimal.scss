@@ -274,6 +274,7 @@ div.slogan {
             &:hover > ul {
                 visibility: visible;
                 position: absolute;
+                display: block;
             }
         }
     }
