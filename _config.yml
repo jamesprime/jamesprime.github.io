@@ -15,19 +15,19 @@ gems:
 # Collections
 collections_dir: _collections
 collections:
-  - code
+  - code:
       output: true
       permalink: /:collection/:name
-  - dft
+  - dft:
       output: true
       permalink: /:collection/:name
-  - projects
+  - projects:
       output: true
       permalink: /:collection/:name
-  - python
+  - python:
       output: true
       permalink: /:collection/:name
-  - research
+  - research:
       output: true
       permalink: /:collection/:name
 
