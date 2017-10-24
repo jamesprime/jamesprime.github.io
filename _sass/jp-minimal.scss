@@ -270,6 +270,10 @@ div.slogan {
                 visibility: hidden;
                 position: absolute;
                 display: inline-block;
+
+                li {
+                    display: block;
+                }
             }
 
             &:hover > ul {
