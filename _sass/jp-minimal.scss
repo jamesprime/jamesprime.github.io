@@ -261,6 +261,7 @@ div.slogan {
 
         li {
             display: inline;
+            position: relative;
 
             a.button {
                 // background-color: #404040;
@@ -270,8 +271,7 @@ div.slogan {
                 visibility: hidden;
                 position: absolute;
                 display: block;
-                left: 106px;
-                width: 90px;
+                left: -10px;
                 top: 26px;
 
                 li {
