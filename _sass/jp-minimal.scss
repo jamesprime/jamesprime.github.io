@@ -268,10 +268,11 @@ div.slogan {
 
             ul {
                 visibility: hidden;
-                position: absolute;
+                position: relative;
                 display: block;
 
                 li {
+                    position: absolute;
                     display: block;
                 }
             }
