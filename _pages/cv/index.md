@@ -1,6 +1,6 @@
 ---
 layout: page
 title: CV
-permalink: /cv.html
+permalink: /cv-old.html
 ---
 Professional fluffbucket.
