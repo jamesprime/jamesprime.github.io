@@ -294,7 +294,7 @@ div.slogan {
                 }
             }
 
-            a:hover > ul {
+            &:hover > ul {
                 visibility: visible;
                 position: absolute;
                 display: block;
