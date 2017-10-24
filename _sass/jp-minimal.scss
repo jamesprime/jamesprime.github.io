@@ -261,7 +261,6 @@ div.slogan {
 
         li {
             display: inline;
-            position: relative;
 
             a.button {
                 // background-color: #404040;
@@ -269,12 +268,14 @@ div.slogan {
 
             ul {
                 visibility: hidden;
-                position: absolute;
-                display: block;
+                position: relative;
+                display: inline-block;
             }
 
             &:hover > ul {
                 visibility: visible;
+                position: absolute;
+                display: block;
             }
         }
     }
