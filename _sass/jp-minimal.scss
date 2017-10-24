@@ -275,6 +275,17 @@ div.slogan {
                 left: -10px;
                 top: 26px;
 
+                // Supposed to add a block between ul and dropdown menu, according to https://stackoverflow.com/questions/20910239/the-content-of-my-dropdown-menu-is-closing-too-fast
+                &:before {
+                    display: block;
+                    content: "";
+                    width: 100%;
+                    height: 10px;
+                    position: absolute;
+                    top: -10px;
+                    left: 0;
+                }
+
                 li {
                     display: block;
                     background-color: #373737;
