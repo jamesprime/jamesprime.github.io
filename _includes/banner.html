@@ -17,7 +17,7 @@
                             <a href="/python/" class="button">CV</a>
                             <ul>
                                 {% for item in site.python %}
-                                    {% if item != 'Index' %}
+                                    {% if item.title != 'Index' %}
                                         <li><a href="{{ item.url }}" class="dropdown button">{{ item.title }}</a></li>
                                     {% endif %}
                                 {% endfor %}
