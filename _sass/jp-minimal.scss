@@ -269,12 +269,12 @@ div.slogan {
 
             ul {
                 visibility: hidden;
+                position: absolute;
+                display: block;
             }
 
             &:hover > ul {
                 visibility: visible;
-                position: absolute;
-                display: block;
             }
         }
     }
