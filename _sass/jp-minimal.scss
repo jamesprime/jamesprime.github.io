@@ -260,6 +260,14 @@ div.slogan {
         line-height: 20px; // Trick to centre contents vertically, from https://www.w3schools.com/css/
     }
 
+    ul li:first-child {
+        padding-left: 0;
+    }
+
+    ul li:last-child {
+        padding-right: 0;
+    }
+
     ul {
         list-style: none;
         height: 20px;
@@ -280,13 +288,6 @@ div.slogan {
             //     background-color: #404040;
             // }
 
-            &:first-child {
-                padding-left: 0;
-            }
-
-            &:last-child {
-                padding-right: 0;
-            }
 
             ul {
                 visibility: hidden;
