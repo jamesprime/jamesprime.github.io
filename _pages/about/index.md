@@ -1,6 +1,6 @@
 ---
 layout: page
 title: About me
-permalink: /about.html
+permalink: /about
 ---
 I exist.  I think.

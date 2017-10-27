@@ -5,16 +5,51 @@
                 <div class="leftbuttons">
                     <ul>
                         <li><a href="{{ site.url }}" class="button">Home</a></li>
+                        <li>
+                            <a href="/about" class="button">About</a>
+                            <ul>
+                                <li><a href="/cv" class="dropdown button">CV</a></li>
+                            </ul>
+                        </li>
                         <li><a href="/blog" class="button">Blog</a></li>
-                        <li><a href="/test.html" class="button">Test Page</a></li>
+                        <!-- <li><a href="/test.html" class="button">Test Page</a></li> -->
                         <!-- <li><a href="/dhtest.html" class="button">DH Test Page</a></li> -->
                     </ul>
                 </div>
                 <div class="rightbuttons">
                     <ul>
-                        <li><a href="/about.html" class="button">About</a></li>
                         <li>
-                            <a href="/python/" class="button">CV</a>
+                            <a href="/research/" class="button">Research</a>
+                            <ul>
+                                {% for item in site.research %}
+                                    {% if item.title != 'Index' %}
+                                        <li><a href="{{ item.url }}" class="dropdown button">{{ item.title }}</a></li>
+                                    {% endif %}
+                                {% endfor %}
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="/code/" class="button">Code</a>
+                            <ul>
+                                {% for item in site.code %}
+                                    {% if item.title != 'Index' %}
+                                        <li><a href="{{ item.url }}" class="dropdown button">{{ item.title }}</a></li>
+                                    {% endif %}
+                                {% endfor %}
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="/cpp/" class="button">C++</a>
+                            <ul>
+                                {% for item in site.cpp %}
+                                    {% if item.title != 'Index' %}
+                                        <li><a href="{{ item.url }}" class="dropdown button">{{ item.title }}</a></li>
+                                    {% endif %}
+                                {% endfor %}
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="/python/" class="button">Python</a>
                             <ul>
                                 {% for item in site.python %}
                                     {% if item.title != 'Index' %}
@@ -24,10 +59,12 @@
                             </ul>
                         </li>
                         <li>
-                            <a href="/research/" class="button">Research</a>
+                            <a href="/projects/" class="button">Projects</a>
                             <ul>
-                                {% for item in site.research %}
-                                    <li><a href="{{ item.url }}" class="dropdown button">{{ item.title }}</a></li>
+                                {% for item in site.projects %}
+                                    {% if item.title != 'Index' %}
+                                        <li><a href="{{ item.url }}" class="dropdown button">{{ item.title }}</a></li>
+                                    {% endif %}
                                 {% endfor %}
                             </ul>
                         </li>
