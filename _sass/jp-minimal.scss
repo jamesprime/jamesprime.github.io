@@ -280,6 +280,14 @@ div.slogan {
             //     background-color: #404040;
             // }
 
+            &:first-child {
+                padding-left: 0;
+            }
+
+            &:last-child {
+                padding-right: 0;
+            }
+
             ul {
                 visibility: hidden;
                 position: absolute;
