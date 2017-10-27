@@ -18,6 +18,9 @@ collections:
   code:
     output: true
     permalink: /:collection/:name
+  cpp:
+    output: true
+    permalink: /:collection/:name
   dft:
     output: true
     permalink: /:collection/:name
