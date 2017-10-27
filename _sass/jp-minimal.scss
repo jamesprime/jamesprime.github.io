@@ -249,7 +249,15 @@ div.slogan {
     position: relative;
     border-top: 2px solid #888;
     border-bottom: 2px solid #888;
-    padding: 5px 0;
+    padding: 5px 30px;
+
+    .buttons {
+        position: absolute;
+        // left: 20px;
+        // right: 20px;
+        height: 20px;
+        line-height: 20px; // Trick to centre contents vertically, from https://www.w3schools.com/css/
+    }
 
     ul {
         list-style: none;
@@ -318,39 +326,31 @@ div.slogan {
         }
     }
 
-    .buttons {
-        position: absolute;
-        left: 20px;
-        right: 20px;
-        height: 20px;
-        line-height: 20px; // Trick to centre contents vertically, from https://www.w3schools.com/css/
-    }
+    // .leftbuttons {
+    //     float: left;
+    //     position: relative;
+    //     left: 0;
 
-    .leftbuttons {
-        float: left;
-        position: relative;
-        left: 0;
+    //     ul {
+    //         margin-left: 0;
 
-        ul {
-            margin-left: 0;
+    //         li {
+    //             padding: 0 8px;
+    //         }
+    //     }
+    // }
 
-            li {
-                padding: 0 8px;
-            }
-        }
-    }
+    // .rightbuttons {
+    //     float: right;
+    //     position: relative;
+    //     right: 0;
 
-    .rightbuttons {
-        float: right;
-        position: relative;
-        right: 0;
-
-        ul {
-            li {
-                padding: 0 8px;
-            }
-        }
-    }
+    //     ul {
+    //         li {
+    //             padding: 0 8px;
+    //         }
+    //     }
+    // }
 }
 
 //-----------------------------------------------------------------------------
