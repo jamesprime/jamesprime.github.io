@@ -1,5 +1,6 @@
 ---
 layout: page
+title: Class members
 ---
 ## Public class members
 
