@@ -22,3 +22,4 @@ class ClassName() {
     private:
         string name;
 }
+```
