@@ -280,15 +280,15 @@ div.slogan {
             //     background-color: #404040;
             // }
 
-            &:first-child > :not(ul):not(li):not(a) {
+            &:first-child {
                 padding-left: 0;
             }
 
-            &:last-child > :not(ul):not(li):not(a) {
+            &:last-child {
                 padding-right: 0;
             }
-
-            ul {
+            // > :not(ul):not(li):not(a)
+            ul .dropdown {
                 visibility: hidden;
                 position: absolute;
                 display: block;
@@ -306,7 +306,7 @@ div.slogan {
                     left: 0;
                 }
 
-                li {
+                li .dropdown {
                     display: block;
                     background-color: #373737;
                     border-bottom: 1px solid #888;
