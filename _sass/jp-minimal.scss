@@ -280,11 +280,11 @@ div.slogan {
             //     background-color: #404040;
             // }
 
-            &:first-child ~ :not(ul) {
+            &:first-child > :not(ul) {
                 padding-left: 0;
             }
 
-            &:last-child ~ :not(ul) {
+            &:last-child > :not(ul) {
                 padding-right: 0;
             }
 
