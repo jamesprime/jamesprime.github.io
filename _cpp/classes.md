@@ -14,3 +14,7 @@ class ClassName
         }
 }
 ```
+
+## Good practice
+
+* Define your classes in separate files
