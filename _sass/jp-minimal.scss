@@ -280,11 +280,11 @@ div.slogan {
             //     background-color: #404040;
             // }
 
-            &:first-child {
+            &:first-child:not(.dropdown) {
                 padding-left: 0;
             }
 
-            &:last-child {
+            &:last-child:not(.dropdown) {
                 padding-right: 0;
             }
             // > :not(ul):not(li):not(a)
