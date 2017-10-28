@@ -292,7 +292,7 @@ div.slogan {
                 visibility: hidden;
                 position: absolute;
                 display: block;
-                left: 25px;
+                left: 10px;
                 top: 26px;
 
                 // Supposed to add a block between ul and dropdown menu, according to https://stackoverflow.com/questions/20910239/the-content-of-my-dropdown-menu-is-closing-too-fast
@@ -312,6 +312,11 @@ div.slogan {
                     border-bottom: 1px solid #888;
                     position: relative;
                     // max-width: 200px;
+                    padding: 0 14px;
+                }
+
+                a.dropdown {
+                    text-align: left;
                 }
             }
 
