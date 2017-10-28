@@ -287,8 +287,8 @@ div.slogan {
             &:last-child:not(.dropdown) {
                 padding-right: 0;
             }
-            // > :not(ul):not(li):not(a)
-            ul {
+
+            ul.dropdown {
                 visibility: hidden;
                 position: absolute;
                 display: block;
@@ -306,7 +306,7 @@ div.slogan {
                     left: 0;
                 }
 
-                li {
+                li.dropdown {
                     display: block;
                     background-color: #373737;
                     border-bottom: 1px solid #888;
@@ -315,7 +315,7 @@ div.slogan {
                 }
             }
 
-            &:hover > ul {
+            &:hover > ul.dropdown {
                 visibility: visible;
                 position: absolute;
                 display: block;
