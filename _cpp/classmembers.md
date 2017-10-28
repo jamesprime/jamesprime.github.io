@@ -2,6 +2,10 @@
 layout: page
 title: Class members
 ---
+## Access specifiers
+
+These are the keywords `public`, `private`, and `protected`, followed by a colon, within the class definition.
+
 ## Public class members
 
 These can be accessed from everywhere outside the class within which they are defined.
