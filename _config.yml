@@ -45,6 +45,12 @@ collections:
     defaults:
       - values:
           layout: page
+  r:
+    output: true
+    permalink: /:collection/:name
+    defaults:
+      - values:
+          layout: page
   research:
     output: true
     permalink: /:collection/:name
