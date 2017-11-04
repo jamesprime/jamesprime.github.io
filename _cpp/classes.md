@@ -96,13 +96,25 @@ Note that `#ifndef` in the source file means "if not defined"; `#define`, natura
 
 These, unlike the constructor and destructor functions, must be declared (in the header file) and defined (in the source file) by their return type (`int`, `void`, etc).
 
-You call a member function on an *instance* of a class using the dot operator, `.`.
+### Object selection operator (`.`)
 
-## Members
+You can access a member (function) on an *instance* of a class using the dot operator, `.`.
+
+## Members and pointers
 
 These are accessed using pointers:
 
 ```c++
 MyClass obj;
 MyClass *ptr = &obj;
+```
+
+### Pointer selection operator (`->`)
+
+The **arrow selection operator**, `->`, is used to access the member(s) (function(s)) on a *pointer* to an instance of a class.  If you're not dealing with pointers, and instead straight objects, then you'd use the dot operator, `.`.
+
+```c++
+MyClass obj;
+MyClass *ptr = &obj;
+ptr->myPrint();
 ```
