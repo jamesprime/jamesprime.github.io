@@ -145,7 +145,12 @@ blockquote {
     }
 }
 
-pre, code {
+code {
+    font-family: Monaco, Courier;
+    font-size: 1em;
+}
+
+pre {
     font-family: Monaco, Courier;
     background: #191919;
     border: dashed 2px #e5e5e5;
