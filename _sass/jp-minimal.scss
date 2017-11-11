@@ -164,8 +164,11 @@ pre {
 // table settings missing
 
 // th settings missing
-
 // td settings missing
+th,
+td {
+    padding: 0 5px;
+}
 
 // hr settings missing
 
