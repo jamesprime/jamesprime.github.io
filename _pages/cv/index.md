@@ -5,4 +5,4 @@ permalink: /cv
 ---
 Professional fluffbucket.
 
-[Training undertaken during my PhD so far](/training)
+[Training undertaken during my PhD so far](/cv/training)
