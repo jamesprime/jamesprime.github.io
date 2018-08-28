@@ -9,6 +9,8 @@ theme: jekyll-theme-leap-day
 # markdown: rdiscount # Supposed to be the closest to GFM
 markdown: kramdown
 
+github: [metadata]
+
 plugins:
   - jekyll-mentions
 
